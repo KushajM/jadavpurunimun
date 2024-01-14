@@ -1,0 +1,213 @@
+.register-btn{
+    height:50px;
+    width:250px;
+    border-radius: 10px;
+    /* --glow-color:rgb(212, 172, 250);
+    --glow-spread-color:rgba(156, 49, 170, 0.781);
+    --enchanced-glow-color:rgb(231,206,255);
+    --btn-color:rgb(100,61,136); */
+
+    --glow-color:rgb(240, 136, 200);
+    --glow-spread-color:rgba(170, 49, 124, 0.781);
+    --enchanced-glow-color:rgb(231,206,255);
+    --btn-color:rgb(92, 16, 63);
+
+    border:0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color:var(--glow-color);
+    background: var(--btn-color);
+    border-radius:1em;
+    outline:none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow:0 0 0.5em var(--glow-color);
+    position:relative;
+    transition:all 0.3s;
+    font-size:15px;
+    font-weight:bold;
+    z-index: 99;
+}
+
+.register-btn::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+
+.register-btn:hover{
+    color:var(--btn-color);
+    background:var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+
+}
+
+
+.register-btn:active{
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+.register-btn h1 {
+    all: unset;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%; /* Make sure it takes the full height of the button */
+    margin: 0; /* Remove any default margin */
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.index_1_link{
+    background: linear-gradient(to right,#c52f89 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer; 
+}
+
+a {
+    text-decoration:none;
+}
+
+.index_4_link{
+    background: linear-gradient(to right,#c52f89 10% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.regular{
+    position:relative;
+    
+    &::before{
+        content:"\201C";
+        position:absolute;
+        font-weight: bold;
+        font-size:2em;
+        background: linear-gradient(to right, #c52f89,#eb3642   ); /* Your blue and yellow gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer; 
+        top:-20px;
+        left:250px;
+        font-family: Georgia,Times,Times New Roman,serif; 
+    }
+
+    &::after{
+        content:"\201D";
+        position:absolute;
+        font-weight: bold;
+        font-size:2em;
+        background: linear-gradient(to right, #c52f89,#eb3642   ); /* Your blue and yellow gradient */
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        bottom:-40px;
+        right:250px;
+        font-family: Georgia,Times,Times New Roman,serif; 
+        
+    }
+}
+
+
+.first-span{
+     font-size: 62px; 
+     margin-bottom: 10px; 
+     font-family: "Montserrat";
+    text-align: center;
+    width:1000px;
+}
+
+.second-span{
+    font-size: 40px; 
+    font-family: "Montserrat";
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
+.index-0-div{
+ display: flex;
+  flex-direction: column;
+   align-items: center; 
+   margin-top: 100px;
+}
+
+.first-span-4{
+    font-size: 62px; 
+     margin-bottom: 10px; 
+     font-family: "Montserrat";
+    text-align: center;
+    width:1000px;
+}
+
+/* Add this to your CSS file */
+@media (max-width: 767px) {
+    .first-span{
+        font-family: "Montserrat";
+     font-size:50px;
+     width:350px;
+     text-align:center;
+     
+    }
+    .first-span-4{
+        font-size: 40px; 
+        margin-bottom: 30px; 
+        font-family: "Montserrat";
+       text-align: center;
+       width:350px;
+       line-height:60px;
+    }
+    .second-span{
+        width:350px;
+        font-size:25px;
+        font-family: "Montserrat";
+    text-align: center; 
+    font-weight:200;
+    line-height: 40px;
+
+    }
+
+    .first-span:nth-child(1){
+        margin-bottom:25px;
+    }
+
+    .index_4_link{
+       
+        font-size:50px;
+    }
+    
+    
+
+    .index-0-div{
+        transform: translateY(-9%);
+        
+    }
+
+    .regular{
+        opacity:0;
+        
+        
+    }
+
+    
+    
+  }
+  

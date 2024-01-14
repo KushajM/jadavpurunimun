@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.preloader {
+  height: 100vh;
+  width: 100%;
+  background: 	#F8E8DA;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.preloader .texts-container {
+  font-family: 'Montserrat';
+  color: #353839;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 1280px;
+  font-size: 40px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.preloader .texts-container span:nth-child(1) {
+  background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+}
+
+.preloader .texts-container span:nth-child(2) {
+  background: linear-gradient(to right,#DC9924 ,#E17125 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+}
+
+
+.preloader .texts-container span:nth-child(3) {
+  background: linear-gradient(to right,#E17125 ,#eb3642 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+}
+
+
+@media (max-width:767px){
+  .preloader .texts-container {
+    font-family: 'Montserrat';
+    color: #353839;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 1280px;
+    font-size: 34px;
+    font-weight: 700;
+    overflow: hidden;
+  }
+}

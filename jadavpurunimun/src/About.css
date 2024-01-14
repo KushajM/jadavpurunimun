@@ -1,0 +1,237 @@
+
+
+.about-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-color: #fdf4e0; /* Transparent white background */
+  }
+  
+  .content-wrapper {
+    
+    display: flex;
+    max-width: 800px;
+    margin-left:-340px; /* Adjust as needed */
+  }
+  
+  .link{
+    background:linear-gradient(to right,#bb237e ,#DC9924,#eb3642  );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none;
+
+  }
+
+  .text-container {
+    font-family: "Montserrat";
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:1px;
+    transform:translateX(-36%);
+     /* Adjust as needed */
+  }
+  
+  .text-container h1{
+    background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left:50%;
+    text-align:center;
+    width: 400px;
+    
+    transform: translateX(50%);
+    font-size:45px;
+  }
+  .text-container h2{
+    transform: translateX(22%);
+    width: 140%;
+    text-align:center;
+    font-size:25px;
+  }
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  
+   transform:translateX(36%);
+   
+  }
+  
+  .img {
+    width: 550px;
+    border-radius: 10px;
+    height: auto;
+
+    
+  }
+  
+  .img:hover{
+    animation:zoom .21s ease-in;
+  }
+
+  @keyframes zoom{
+    from,to{
+        scale:1;
+
+    }
+
+    50%{
+        scale:.99;
+    }
+
+  }
+
+  
+  .custom-shape-divider-top-1704527554 {
+    
+    position: absolute;
+    top: 197vh;
+    left: 0;
+    width: 100%;
+    
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704527554 svg {
+    position: relative;
+    display: block;
+    width: calc(270% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-top-1704527554 .shape-fill {
+    fill: #ffefdf;
+}
+
+.about-a{
+  left:86%;
+
+  position:relative;
+  color:#faefef;
+  background:#BD2D76;/* Your blue and yellow gradient */
+  
+  display:inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  font-family:"Montserrat";
+  margin-top:10px;
+  text-decoration:none;
+  font-weight:700;
+  width:100px;
+  border-radius:10px;
+}
+@media (max-width: 767px) {
+
+
+  .about-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Adjust as needed */
+    background-color: #fdf4e0; /* Transparent white background */
+  }
+  
+  .content-wrapper {
+    margin-top:50px;
+    flex-direction: column;
+  }
+
+  .text-container{
+    all:unset;
+    font-family: "Montserrat";
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:1px;
+    
+
+  }
+
+  .text-container h1{
+    all:unset;
+    background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+    font-size: 42px;
+    transform: translateX(22.8%);
+  }
+  .text-container h2{
+    margin-top:50px;
+    transform: translateX(95%);
+    width: 50%;
+    text-align:center;
+    font-size:22px;
+    margin-bottom: 30px;
+  }
+.about-a{
+  left:65%;
+
+  position:relative;
+  color:#faefef;
+  background:#BD2D76;/* Your blue and yellow gradient */
+  
+  display:inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  font-family:"Montserrat";
+  margin-bottom:80px;
+  text-decoration:none;
+  font-weight:700;
+  width:100px;
+  border-radius:10px;
+
+}
+  .image-container{
+    all:unset;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: translateX(22.3%);
+    
+  }
+  .img {
+    
+    width: 370px;
+    border-radius: 10px;
+    height: auto;
+    
+
+    
+  }
+  
+  .custom-shape-divider-top-1704527554 {
+    
+    position: absolute;
+    top: 219vh;
+    left: 0;
+    width: 100%;
+    
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704527554 svg {
+  position: relative;
+  display: block;
+  width: calc(270% + 1.3px);
+  height: 70px;
+}
+
+.custom-shape-divider-top-1704527554 .shape-fill {
+  fill: #fdf4e0;
+}
+
+}
