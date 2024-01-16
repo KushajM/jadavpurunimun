@@ -6,6 +6,7 @@ import Preloader from "./Preloader.jsx"
 import Slider from "./Slider.jsx"
 import About from "./About.jsx"
 import Cmt from "./Cmt.jsx"
+import registration from "./registration.jsx"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
