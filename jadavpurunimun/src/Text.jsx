@@ -1,5 +1,6 @@
 import React from 'react';
 import "./landing.css";
+import "./Text.scss"
 
 
 const Text = ({ text, index }) => {
@@ -21,7 +22,17 @@ const Text = ({ text, index }) => {
             <span className="second-span" >{text} 2024</span>
             
             <a href="youtube.com">
-              <button className="register-btn" style={{}}><h1>REGISTER</h1></button>
+              {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
+              <button class="btn">
+              <div class="btn__bg">
+                <span class="btn__bg__layer btn__bg__layer-first"></span>
+                <span class="btn__bg__layer btn__bg__layer-second"></span>
+                <span class="btn__bg__layer btn__bg__layer-third"></span>
+              </div>
+
+              <span class="btn__text-out">REGISTER</span>
+              <span class="btn__text-in">REGISTER</span>
+            </button>
             </a>
           </div>
 
