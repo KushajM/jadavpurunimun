@@ -10,15 +10,14 @@ import About from "./About.jsx";
 import Cmt from "./Cmt.jsx";
 import Big from "./Big.jsx";
 import {useNavigate} from "react-router-dom";
-
-
+import Bigcmt from "./Bigcmt.jsx"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       
-
-      <Preloader />
+  <Bigcmt />
+      {/* <Preloader />
       <Slider />
       <Routes>
         
@@ -27,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Routes>
      <About />
       
-      <Cmt />
+      <Cmt /> */}
       {/* <BigAbout /> */}
       {/* <SvgSection /> */}
       

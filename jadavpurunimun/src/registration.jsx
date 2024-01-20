@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css'; 
+import './registration.css'; 
 
 const FormDataSheetForm = () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycby7ySa2_vMi3fKHvcD4ezgpA8xSZFycVajqvawB-G2HAobhjSeltd24O9eokAyJTizq/exec';
@@ -21,16 +21,11 @@ const FormDataSheetForm = () => {
     };
 
     return (
-        <html>
-            <head>
-                <meta charSet="utf-8" />
-                <meta name="viewport" content="width=device-width,initial-scale=1" />
-                <title>Form Data in Sheets</title>
-                <link rel="stylesheet" type="text/css" href="styles.css" />
-            </head>
+       
             <body>
-                <img src="Final Logo.jpeg" className="logo" alt="Logo" />
+                
                 <form name="submit-to-google-sheet" onSubmit={handleSubmit}>
+                    
                     <label htmlFor="name">Name:</label><br />
                     <input type="text" id="name" name="name" required /><br /><br />
 
@@ -113,7 +108,7 @@ const FormDataSheetForm = () => {
 
             {successMessage && <span id="success">{successMessage}</span>}
         </body>
-    </html>
+    
 );
 };
 
