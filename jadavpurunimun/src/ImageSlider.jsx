@@ -35,7 +35,7 @@ function ImageSlider({ imageUrls }) {
   }
 
   return (
-    <div style={{ position: "relative", width: "100%", height: "100%",zIndex:0}}>
+    <div style={{ position: "relative", width: "100%", height: "100%",zIndex:0,overflow:"hidden"}}>
       
       <div className="img-slider-img-container" style={{ width: "100%", height: "100%", display: "flex", overflow: "hidden" }}>
         {imageUrls.map((url, index) => (

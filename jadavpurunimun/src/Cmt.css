@@ -1,14 +1,19 @@
-
 body{
+    max-width:100%;
+    
+    overflow-x:hidden;
+}
+.committee-page{
         
-        
-    min-height:100vh;
+    height: 100vh;
+    
     background-color: #240a1f;
-    overflow-y: hidden;
+
     overflow-x: hidden;
+    max-width: 100%;
 }
 
-body::before{
+.committee-page::before{
     margin-top:200vh;
     content:'';
     position:absolute;
@@ -18,19 +23,23 @@ body::before{
     height: 100%;
     background:linear-gradient(#791752 40%,#af2f38);
     clip-path:circle(25% at right 90%);
+    max-width:100%;
     
+    
+  
 }
 
 
-body::after{
-    margin-top:190vh;
+
+.committee-page::after{
+    
     content:'';
     position:absolute;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
-   
+    max-width: 100%;
     z-index: -1;
 }
 
@@ -42,7 +51,7 @@ display:flex;
 left: 7.8%;
 top:50%;
 transform:translateY(-50%);
-
+overflow-x: hidden;
 
 }
 
@@ -134,7 +143,7 @@ font-family:"Montserrat";
 font-size:.9em;
 
 }
-.container .card .content a{
+.container .card .content .agenda{
 position:relative;
 color:#111;
 background:#F9EBDA;
@@ -151,9 +160,15 @@ border-radius:10px;
 }
 
 @media (max-width:767px){
-
-body::before{
-    margin-top:460vh;
+    
+    .committee-page{
+        max-width:100%;
+        height:325vh;
+        overflow-x:hidden;
+        margin:0;
+    }
+    .committee-page::before{
+    margin-top:445vh;
     content:'';
     position:absolute;
     top:0;
@@ -162,8 +177,19 @@ body::before{
     height: 100%;
     background:linear-gradient(#791752 40%,#af2f38);
     clip-path:circle(25% at right 90%);
+    max-width:100%;
     
+    
+  
 }
+
+.committee-page::after{
+    max-width:100%;
+    
+    overflow-x:hidden;
+    margin:0;
+}
+
 .committee-page h1{
 
     font-family:"Montserrat";
@@ -180,26 +206,44 @@ body::before{
 
 }
 .container{
-    left:8.4%;
+    
+    max-width:360px;
     overflow-x:hidden;
-    margin-top:350vh;
+    
 }
 .container .card{
-    
-    height: 350px;
+    all:unset;
+    display:flex;
+justify-content: flex-start;
+align-items: center;
+position: relative;
+   margin-bottom:60px;
+    height: 340px;
     transition:0.5s;
+    width:360px;
+  align-items: flex-start;
+  background:rgb(255, 255, 255,0.1);
+
+  border-top:1px solid rgba(255,255,255,0.5);
+  border-left:1px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  
     
-    width:350px;
-    align-items:flex-start;
-    left:-20px;
 }
 
+
+.container .card:nth-child(1){
+    margin-top:250vh;
+}
 .container .card:hover{
-    height:600px;
+    
+    height:550px;
     transition:.5s;
 }
 
 .container .card .image{
+  
     position:absolute;
     height: 280px;
     left:50%;
@@ -209,22 +253,22 @@ body::before{
     transition:0.5s;
 }
 
+
+
 .container .card:hover .image{
     left:50%;
-    
-    height:330px;
+    overflow: hidden;
+    height:300px;
     top:74%;
     transition:.5s;
-    width:360px;
+    width:340px;
     
 }
 
 
-.container .card .image:nth-child(4){
-    left:60%;
-}
 
 .container .card:hover .content{
+    overflow: hidden;
     left:0;
     opacity:1;
     visibility: visible;
@@ -269,6 +313,7 @@ body::before{
     
 }
 .container .card .content{
+    overflow: hidden;
     width: 100%;
     left: 0;
     padding:40px;
@@ -280,17 +325,39 @@ body::before{
     
     flex-direction:column;
 }
-
-.container .card{
-    margin: 40px 20px;
-}
 }
 
-@media (max-width:420px){
-.container .card .content{
-    padding:30px;
-}
-.container .card:hover .image{
-    height:300px;
+
+
+
+
+@media (max-width:400px){
+    .container .card:nth-child(1){
+        margin-top:290vh;
+    }
+    .container .card{
+        width:330px;
+    }
+
+    .committee-page{
+        max-width:100%;
+        height:350vh;
+        overflow-x:hidden;
+        margin:0;
+    }
+    .committee-page::before{
+    margin-top:470vh;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(#791752 40%,#af2f38);
+    clip-path:circle(25% at right 90%);
+    max-width:100%;
+    
+    
+  
 }
 }

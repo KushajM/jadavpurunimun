@@ -310,3 +310,13 @@ a {
     
   }
   
+  @media (max-width: 400px){
+    .first-span{
+      font-size:45px;
+    }
+
+    .second-span{
+      font-size:22px;
+    }
+  }
+  

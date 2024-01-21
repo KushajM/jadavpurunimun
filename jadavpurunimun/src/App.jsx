@@ -1,16 +1,41 @@
-import { useState } from 'react'
+import React,{ useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'; 
+import Preloader from "./Preloader.jsx";
+import Slider from "./Slider.jsx";
+import About from "./About.jsx";
+import Cmt from "./Cmt.jsx";
+import Big from "./Big.jsx";
+import {useNavigate} from "react-router-dom";
+import Bigcmt from "./Bigcmt.jsx"
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-    HELLO BROTHER
-      </div>
+    <Router>
+      
+ 
+    <Preloader />
+    <Slider />
+    <Routes>
+      
+      <Route exact path ="/big"  element={<Big />} />
+      <Route exact path ="/bigcmt" element={<Bigcmt />} />
+
+
+      </Routes>
+   <About />
+    
+    <Cmt />
+    {/* <BigAbout /> */}
+    {/* <SvgSection /> */}
+    
+  </Router>
   )
 }
 

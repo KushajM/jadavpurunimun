@@ -1,12 +1,11 @@
-body{
- 
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-color:  #F8E6D9;
+
+
+.bigabout{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color:  #F8E6D9;
 }
-
-
   .animation, .animation_layer {
       height: 100vh;
   }

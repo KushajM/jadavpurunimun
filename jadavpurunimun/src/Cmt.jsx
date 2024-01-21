@@ -3,6 +3,10 @@ import "./Cmt.css"
 import {cmtMenu} from "./animations/cmt.js"
 import 'aos/dist/aos.css'; // Import the AOS styles
 import AOS from 'aos';
+import { Link } from 'react-router-dom';
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'; // Import BrowserRouter
+import ReactDOM from 'react-dom/client';
+import {useNavigate} from "react-router-dom";
 
 
 const Cmt = () => {
@@ -29,7 +33,9 @@ const Cmt = () => {
             <br />
             International Security 
             Committee</p>
-          <a href="#">Agenda</a>
+            <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/DISEC.png" className="image" draggable="false"  />
       </div>
@@ -37,7 +43,9 @@ const Cmt = () => {
         <div className="content">
           <h2>UNCSW</h2>
           <p>Commission on Status of <br /> Women</p>
-          <a href="#">Agenda</a>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/UNW.png" className="image" draggable="false" />
       </div>
@@ -45,7 +53,9 @@ const Cmt = () => {
         <div className="content">
           <h2>LOK SABHA</h2>
           <p>Lok Sabha</p>
-          <a href="#">Agenda</a>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/LOKSABHA.png" className="image" draggable="false" />
       </div>
@@ -54,7 +64,9 @@ const Cmt = () => {
         <div className="content">
           <h2>VPC</h2>
           <p>Viceroy's Partition Council</p>
-          <a href="#">Agenda</a>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/VPC.png" className="image" draggable="false" />
       </div>
@@ -64,7 +76,9 @@ const Cmt = () => {
           <h2>UNHCR</h2>
           <p>United Nations High 
             <br />Commissioner of Refugee</p>
-          <a href="#">Agenda</a>
+            <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/HCR.png" className="image" draggable="false" />
       </div>
@@ -72,7 +86,9 @@ const Cmt = () => {
         <div className="content">
           <h2>IP</h2>
           <p>International Press</p>
-          <a href="#">Agenda</a>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
         </div>
         <img src="../img/IP.png" className="image" draggable="false" />
       </div>

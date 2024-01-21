@@ -12,6 +12,8 @@ import {useNavigate} from "react-router-dom";
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 1600 });
+
+    
   }, []);
 
 

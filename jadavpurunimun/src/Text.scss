@@ -105,4 +105,12 @@
         }
       }
     }
+    @media (max-width:400px){
+      &__text-out,
+      &__text-in{
+        font-size:1.3em;
+      }
+    }
   }
+
+  

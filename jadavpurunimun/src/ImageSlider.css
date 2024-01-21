@@ -4,6 +4,7 @@ body {
     overflow-y: scroll; 
     scrollbar-width: thin; /* For Firefox */
     scrollbar-color: transparent transparent; /* For Firefox */
+    overflow-x: hidden;
   }
   
   body::-webkit-scrollbar {
@@ -26,6 +27,7 @@ header{
     flex-shrink:0;
     flex-grow:0;
     transition:transform .6s ease-in-out;
+    
   
 }
 
@@ -39,7 +41,7 @@ header{
     padding: 1rem;
     cursor:pointer;
     transition:background-color 100ms ease-in-out;
-    z-index:2;
+    z-index:1;
 
 }
 

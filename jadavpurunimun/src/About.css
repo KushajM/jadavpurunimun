@@ -7,6 +7,7 @@
     align-items: center;
     height: 100vh; /* Adjust as needed */
     background-color: #fdf4e0; /* Transparent white background */
+    overflow-x: hidden;
   }
   
   .content-wrapper {
@@ -14,6 +15,7 @@
     display: flex;
     max-width: 800px;
     margin-left:-340px; /* Adjust as needed */
+    
   }
   
   .link{
@@ -106,6 +108,7 @@
     display: block;
     width: calc(270% + 1.3px);
     height: 110px;
+    overflow: hidden;
 }
 
 .custom-shape-divider-top-1704527554 .shape-fill {
@@ -131,6 +134,13 @@
 }
 @media (max-width: 767px) {
 
+ 
+  .custom-shape-divider-top-1704527554 svg {
+    all:unset;
+    width: calc(300% + 1.3px);
+        height: 55px;
+}
+
 
   .about-container {
     
@@ -139,11 +149,13 @@
     align-items: center;
     height: 120vh; /* Adjust as needed */
     background-color: #fdf4e0; /* Transparent white background */
+    overflow-x: hidden;
   }
   
   .content-wrapper {
     margin-top:50px;
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   .text-container{
@@ -216,22 +228,47 @@
   .custom-shape-divider-top-1704527554 {
     
     position: absolute;
-    top: 219vh;
+    top: 219.7vh;
     left: 0;
     width: 100%;
     
     line-height: 0;
 }
 
-.custom-shape-divider-top-1704527554 svg {
-  position: relative;
-  display: block;
-  width: calc(270% + 1.3px);
-  height: 70px;
-}
+  .custom-shape-divider-top-1704527554  svg {
+      width: calc(100%);
+      height: 55px;
+  }
+
 
 .custom-shape-divider-top-1704527554 .shape-fill {
   fill: #fdf4e0;
 }
 
+}
+
+
+
+@media (max-width:400px){
+  .img {
+   
+    width: 360px;
+    border-radius: 20px;
+    height: auto;
+    margin-left:15px;
+
+    
+  }
+
+  
+  .text-container{
+    all:unset;
+    font-family: "Montserrat";
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:1px;
+    
+    margin-left:20px;
+  }
 }
