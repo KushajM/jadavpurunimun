@@ -13,6 +13,7 @@
     cursor: pointer;
     overflow: hidden;
     background-color: transparent;
+    z-index: 9999;
 
 
     &:hover &__bg {
@@ -111,6 +112,14 @@
         font-size:1.3em;
       }
     }
+  }
+
+
+  @media (max-width:767px) {
+    .btn{
+      z-index: 9999;
+    }
+    
   }
 
   

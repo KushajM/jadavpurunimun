@@ -4,7 +4,7 @@
  .slider {
     margin:0;
     height: 100vh;
-   
+   z-index: 1;
     position: relative;
     margin-top:-100vh;
     overflow-y:hidden;
@@ -157,7 +157,7 @@
     width: 0;
 }
 .thumbnail .item{
-    width: 200px;
+    width: 170px;
     height: 220px;
     filter: brightness(.5);
     transition: .5s;
@@ -184,6 +184,7 @@
 @media screen and (max-width: 678px) {
     .thumbnail{
         justify-content: start;
+        bottom:10px;
     }
      .slider 
  .list .item .content h2{
@@ -191,7 +192,7 @@
     }
      .slider 
  .list .item .content{
-        transform: translateY(-90px);
+        transform: translateY(-100px);
         
     }
      .slider 

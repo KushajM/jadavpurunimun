@@ -11,7 +11,9 @@ import Cmt from "./Cmt.jsx";
 import Big from "./Big.jsx";
 import {useNavigate} from "react-router-dom";
 import Bigcmt from "./Bigcmt.jsx"
-
+import Contact from "./Contact.jsx"
+import Scroller from "./Scroller.jsx"
+import Footer from "./Footer.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,9 +21,11 @@ function App() {
   return (
     <Router>
       
- 
+   
+   
     <Preloader />
     <Slider />
+   
     <Routes>
       
       <Route exact path ="/big"  element={<Big />} />
@@ -31,7 +35,11 @@ function App() {
       </Routes>
    <About />
     
-    <Cmt />
+   <Cmt />
+   <Contact />
+    <Scroller />
+     <Footer />
+    
     {/* <BigAbout /> */}
     {/* <SvgSection /> */}
     

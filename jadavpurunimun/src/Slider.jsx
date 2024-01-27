@@ -17,7 +17,8 @@ export default function Slider(){
     <div style={{width:"100%",
       height:"100vh",
       top:"0",
-      margin:"0 auto"}}
+      margin:"0 auto",
+    }}
     >
 
       <ImageSlider imageUrls={IMAGES} className="img-slider" />

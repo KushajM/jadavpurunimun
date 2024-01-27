@@ -33,9 +33,19 @@ function ImageSlider({ imageUrls }) {
       return index - 1;
     });
   }
+  const [itemActive, setItemActive] = useState(0);
+  
+  const nextClick = () => {
+    setItemActive((prevItem) => (prevItem + 1) % countItem);
+  };
+
+  const prevClick = () => {
+    setItemActive((prevItem) => (prevItem - 1 + countItem) % countItem);
+  };
+
 
   return (
-    <div style={{ position: "relative", width: "100%", height: "100%",zIndex:0,overflow:"hidden"}}>
+    <div style={{ position: "relative", width: "100%", height: "100%",zIndex:0,overflow:"hidden" }} id="home">
       
       <div className="img-slider-img-container" style={{ width: "100%", height: "100%", display: "flex", overflow: "hidden" }}>
         {imageUrls.map((url, index) => (
@@ -45,23 +55,14 @@ function ImageSlider({ imageUrls }) {
           </div>
         ))}
       </div>
-      <button onClick={showPrevImage} className="img-slider-button" style={{ left: 0 }}>
+      <button onClick={showPrevImage} className="img-slider-button" style={{ left: 0,width:"30px"}}>
         <BsChevronCompactLeft className="button-arrow-left" />
       </button>
-      <button onClick={showNextImage} className="img-slider-button" style={{ right: 0 }}>
+      <button onClick={showNextImage} className="img-slider-button" style={{ right: 0, }}>
         <BsChevronCompactRight className="button-arrow-right"/>
       </button>
 
-      <div
-        style={{
-          position: "absolute",
-          bottom: ".5rem",
-          left: "50%",
-          transform: "translateX(-50%)",
-          display: "flex",
-          gap: ".5rem",
-        }}
-      >
+      <div className="img-circle-btn-container">
         {imageUrls.map((_, index) => (
           <button key={index} className="img-slider-circle-btn" style={{ bottom:0}} onClick={() => setImageIndex(index)}>
             {index === imageIndex ? <CircleDot /> : <Circle />}

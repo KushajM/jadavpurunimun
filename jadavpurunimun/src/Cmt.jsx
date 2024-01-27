@@ -82,6 +82,29 @@ const Cmt = () => {
         </div>
         <img src="../img/HCR.png" className="image" draggable="false" />
       </div>
+     
+
+      <div className="card" >
+        <div className="content">
+          <h2>UNODC</h2>
+          <p>United Nations Office on Drugs and Crime</p>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
+        </div>
+        <img src="../img/odc2.png" className="image" draggable="false" />
+      </div>
+
+      <div className="card" >
+        <div className="content">
+          <h2>UNICEF</h2>
+          <p>United Nations Children's Fund</p>
+          <Link to="/bigcmt" target="_blank" className="agenda">
+        Agenda
+      </Link>
+        </div>
+        <img src="../img/unicef2.png" className="image" draggable="false" />
+      </div>
       <div className="card" >
         <div className="content">
           <h2>IP</h2>
@@ -92,7 +115,6 @@ const Cmt = () => {
         </div>
         <img src="../img/IP.png" className="image" draggable="false" />
       </div>
-
      
       
       </div>

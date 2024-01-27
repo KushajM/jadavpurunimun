@@ -3,7 +3,7 @@ import './Bigcmt.css';
 
 const Bigcmt = () => {
     const [itemActive, setItemActive] = useState(0);
-  const countItem = 5;
+  const countItem = 8;
 
   const nextClick = () => {
     setItemActive((prevItem) => (prevItem + 1) % countItem);
@@ -17,7 +17,7 @@ const Bigcmt = () => {
     // Initial run after component mount
     nextClick();
 
-    // Auto run slider every 2 seconds
+  
     let refreshInterval = setInterval(() => {
       nextClick();
     }, 5000);
@@ -32,13 +32,11 @@ const Bigcmt = () => {
     // Clear existing auto time run slider
     clearInterval(refreshInterval);
 
-    // Set a new auto time run slider every 5 seconds
-    let newRefreshInterval = setInterval(() => {
-      nextClick();
-    }, 5000);
+ 
+  
 
     // Save the new interval in the state
-    setRefreshInterval(newRefreshInterval);
+  
   };
  
 
@@ -64,7 +62,10 @@ const Bigcmt = () => {
     { imgSrc: '../img/UNW5.jpg', title: 'UNCSW', content: "                       Women's leadership and political engagement face historical underrepresentation and discrimination globally. The United Nations Commission on the Status of Women (UNCSW), established in 1946 by ECOSOC resolution 11(II), is the primary global organization dedicated to advancing gender equality. UNCSW envisions a society where everyone enjoys equal rights and opportunities, challenging norms for women's safety. JUMUN mirrors UNCSW, testing participants' abilities to make a difference in various spheres, from political leadership to corporate boardrooms. Join us at JUMUN 2024 in redefining humanity.    "},
     { imgSrc: '../img/VPC6.jpg', title: 'VPC', content: "Lord Louis Mountbatten established the Viceroy's Partition Council as part of the overall plan for the 1947 partition of British India. Tasked with overseeing the complex division into India and Pakistan, the council, comprised of diverse members, played a crucial role in administrative and logistical decisions. Responsibilities included asset division, border demarcation, and addressing administrative matters. Implementing the Mountbatten Plan, the council aimed to facilitate a smooth transition, minimize tensions, and represent the interests of diverse communities involved in the partition."},
     { imgSrc: '../img/VPC2.jpg', title: 'LOK SABHA', content: "Leaders must unite to address the dynamic nature of politics in this diverse nation, developing policies and governance structures. JUMUN 2024 presents the Lok Sabha committee, the primary legislative body of India, shaped by the people's mandate through elections and universal adult suffrage. With unique organization ensuring representation from all regions, it fosters variety and universality. The 'make or break' exam in the House will determine if the country finds the legislator it deserves. Test your knowledge at JUMUN 2024." },
-    { imgSrc: '../img/IP.jpg', title: 'IP', content: "The International Press in Model United Nations (MUN) represents leading news organizations, meticulously covering committee discussions for the conference newsletter. Participants act as journalists and photographers, reporting on various committees' development, effectiveness, debate flow, and alliance-building. Photographs capturing conference moments not only showcase stunning visuals but also narrate a story without captions. Join us at JUMUN 2023 and don't forget your cameras for this unique opportunity to engage in journalistic coverage." },
+    { imgSrc: '../img/HCR.jpg', title: 'UNHCR', content: "The UN High Commissioner for Refugees (UNHCR), formed in 1950 to address post-World War II displacement, aids refugees, stateless individuals, and displaced communities. Governed by the 1951 Refugee Convention, UNHCR's mission involves resettlement, repatriation, protection, healthcare, and emergency relief. JUMUN 2024 will simulate UNHCR's efforts, fostering discussion on global refugee crises. The organization advocates for national and international policies supporting refugees, ensuring their well-being. Join us at JUMUN 2024 for insightful dialogue on these critical issues." },
+    { imgSrc: '../img/unodc.jpg', title: 'UNODC', content: "" },
+    { imgSrc: '../img/unicef.jpg', title: 'UNICEF', content: "" },
+    { imgSrc: '../img/IP.jpg', title: 'IP', content: "The International Press in Model United Nations (MUN) represents leading news organizations, meticulously covering committee discussions for the conference newsletter. Participants act as journalists and photographers, reporting on various committees' development, effectiveness, debate flow, and alliance-building. Photographs capturing conference moments not only showcase stunning visuals but also narrate a story without captions. Join us at JUMUN 2024 and don't forget your cameras for this unique opportunity to engage in journalistic coverage." },
   ]; 
 
   const thumbnails = [
@@ -72,6 +73,9 @@ const Bigcmt = () => {
     { imgSrc: '../img/UNW.png', title: 'UNCSW' },
     { imgSrc: '../img/VPC.png', title: 'VPC' },
     { imgSrc: '../img/LOKSABHA.png', title: 'LOK SABHA' },
+    { imgSrc: '../img/HCR.png', title: 'UNHCR'},
+    { imgSrc: '../img/odc2.png', title: 'UNODC'},
+    { imgSrc: '../img/unicef2.png', title: 'UNICEF'},
     { imgSrc: '../img/IP.png', title: 'IP' },
   ]; 
 

@@ -4,26 +4,34 @@ import "./Text.scss"
 
 
 const Text = ({ text, index }) => {
-  const scrollToCommittees = () => {
+  const scrollToCommittees = (event) => {
+    event.preventDefault();
+  
     const committeesSection = document.getElementById("committees");
     if (committeesSection) {
       committeesSection.scrollIntoView({ behavior: "smooth" });
     }
   };
+  
+
+  const redirectToYouTube = () => {
+    window.location.href = "https://www.youtube.com";
+  };
+  
   return (
-    <div style={{ zIndex: 1, position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", textAlign: "left", display: "flex", flexDirection: "row", alignItems: "center" }}>
+    <div className="mega-img-container">
       {index === 0 && (
         <>
           
           
           
-          <div className="index-0-div" >
+          <div className="index-0-div">
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
             <span className="second-span" >{text} 2024</span>
             
-            <a href="youtube.com">
+            <a href="https://www.youtube.com/" >
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
-              <button class="btn">
+              <button class="btn" >
               <div class="btn__bg">
                 <span class="btn__bg__layer btn__bg__layer-first"></span>
                 <span class="btn__bg__layer btn__bg__layer-second"></span>

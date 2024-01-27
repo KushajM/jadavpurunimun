@@ -172,7 +172,23 @@
     height: 150px;
     width: 150px;
 }
-
+.index_1_link,
+.index_4_link {
+  cursor: pointer;
+  /* ... other styles ... */
+}
+.mega-img-container{
+  z-index: 9999;
+  position: absolute;
+  top: 50%; 
+  left: 50% ;
+  transform: translate(-50%, -50%);
+   color: white;
+   text-align: left;
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+}
 .index_1_link{
     background: linear-gradient(to right,#c52f89 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
     -webkit-background-clip: text;
@@ -259,6 +275,10 @@ a {
 
 /* Add this to your CSS file */
 @media (max-width: 767px) {
+
+  .mega-img-container{
+    
+  }
     .first-span{
         font-family: "Montserrat";
      font-size:50px;
@@ -293,10 +313,12 @@ a {
         font-size:50px;
     }
     
-    
+
+  
 
     .index-0-div{
         transform: translateY(-9%);
+    
         
     }
 
