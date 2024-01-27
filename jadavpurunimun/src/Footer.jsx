@@ -61,7 +61,7 @@ const Footer = () => {
 
  <footer className="footer" >
       <div className="footer-container" >
-        <div className="footer-content"  data-aos="fade-in" >
+        <div className="footer-content" >
           <div className="footer-logo" ><span>JUMUN2024</span></div>
           <div className="footer-links">
             <ul className="footer-menu">

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust as needed */
-    background-color: #fdf4e0; /* Transparent white background */
+    background-color: #F8E8DA; /* Transparent white background */
     overflow-x: hidden;
   
   }
@@ -97,11 +97,12 @@
   .custom-shape-divider-top-1704527554 {
     
     position: absolute;
-    top: 197vh;
+    top: 198vh;
     left: 0;
     width: 100%;
     
     line-height: 0;
+    z-index: 999;
 }
 
 .custom-shape-divider-top-1704527554 svg {
@@ -113,15 +114,18 @@
 }
 
 .custom-shape-divider-top-1704527554 .shape-fill {
-    fill: #ffefdf;
+    fill: #F8E8DA;
 }
 
 .about-a{
-  left:86%;
+  left:74%;
 
   position:relative;
-  color:#faefef;
-  background:#BD2D76;/* Your blue and yellow gradient */
+  background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+  /* Your blue and yellow gradient */
   
   display:inline-block;
   text-align: center;
@@ -130,8 +134,14 @@
   margin-top:10px;
   text-decoration:none;
   font-weight:700;
-  width:100px;
+  width:180px;
   border-radius:10px;
+  font-size:25px;
+}
+
+.about-a:hover{
+  font-size:26px;
+  transition: 0.2s ease-in-out;
 }
 @media (max-width: 767px) {
 

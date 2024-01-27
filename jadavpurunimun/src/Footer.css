@@ -13,6 +13,7 @@
   font-family: 'Montserrat';
   background-color: #240A1F;
   position:absolute;
+ 
 
 }
 
@@ -36,9 +37,11 @@
 
 }
 
+
 .footer-content{
     margin-top:10px;
     margin-left:-15px;
+   
 }
 .footer-logo span{
     font-size:30px;
@@ -82,7 +85,7 @@
   margin: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 

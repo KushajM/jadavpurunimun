@@ -54,7 +54,7 @@ export const preLoaderAnim = () => {
     .to(
       ".preloader",
       {
-        duration: 1.5,
+        duration: .9,
         height: "0vh",
         ease: "Power3.easeOut",
         onComplete: mobileLanding(),
@@ -62,7 +62,7 @@ export const preLoaderAnim = () => {
       "-=2"
     )
     .from(".landing__main .text", {
-      duration: 2,
+      duration: 1,
       // scale: 0,
       y: 10,
       opacity: 0,
@@ -204,7 +204,7 @@ export const fadeUp = (el, delay = 0) => {
 export const mobileLanding = () => {
   window.innerWidth < 763 &&
     tl.from(".landing__main2", {
-      duration: 1,
+      duration: .2,
       delay: 0,
       opacity: 0,
       y: 80,

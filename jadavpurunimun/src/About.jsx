@@ -34,15 +34,15 @@ const About = () => {
           <h1>ABOUT JU MUN</h1>
           <h2>
             
-            Jadavpur University's global recognition derives from its academic goals and commitment to critical thinking. The JU Model United Nations embodies these aspirations, serving as a platform for global students to envision a brighter future. This initiative reflects the synergy between our instincts and the pull towards a collective, impactful future
-            <a href="www.youtube.com" className="link">...</a>
+            Jadavpur University's global recognition derives from its academic goals and commitment to critical thinking. The JU Model United Nations embodies these aspirations, serving as a platform for global students to envision a brighter future. This initiative reflects the synergy between our instincts and the pull towards a collective, impactful future...
+          
           </h2> 
           <Link to="/big" target="_blank" className="about-a">
-        View
+        Read more
       </Link>
         </div>
         <div className="image-container" >
-            <a href="www.youtube.com"> <img src="../img/landingimg1.jpeg" alt="JUMUN Image" className="img" /></a>
+           <img src="../img/landingimg1.jpeg" alt="JUMUN Image" className="img" />
          
         </div>
       </div>

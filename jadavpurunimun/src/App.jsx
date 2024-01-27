@@ -14,31 +14,38 @@ import Bigcmt from "./Bigcmt.jsx"
 import Contact from "./Contact.jsx"
 import Scroller from "./Scroller.jsx"
 import Footer from "./Footer.jsx"
+import Preloadertwo from "./PreloaderTwo.jsx"
+import Navbar from "./Navbar.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
+  const [initialLoad, setInitialLoad] = useState(true);
+
 
   return (
     <Router>
-      
-   
-   
-    <Preloader />
-    <Slider />
-   
-    <Routes>
-      
-      <Route exact path ="/big"  element={<Big />} />
-      <Route exact path ="/bigcmt" element={<Bigcmt />} />
 
+     
 
-      </Routes>
-   <About />
+      
+   {/* <Preloadertwo /> */}
+   <Navbar />
+  <Preloader />
+  <Slider />
+  
+  <Routes>
     
-   <Cmt />
-   <Contact />
-    <Scroller />
-     <Footer />
+    <Route exact path ="/big"  element={<Big />} />
+    <Route exact path ="/bigcmt" element={<Bigcmt />} />
+
+
+    </Routes>
+  <About />
+  
+  <Cmt />
+  <Contact />
+  <Scroller />
+    <Footer />
     
     {/* <BigAbout /> */}
     {/* <SvgSection /> */}

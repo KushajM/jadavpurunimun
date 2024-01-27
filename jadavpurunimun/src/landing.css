@@ -183,7 +183,7 @@
   top: 50%; 
   left: 50% ;
   transform: translate(-50%, -50%);
-   color: white;
+   color: #F8E8DA;
    text-align: left;
    display: flex; 
    flex-direction: row;
@@ -249,15 +249,26 @@ a {
      font-family: "Montserrat";
     text-align: center;
     width:1000px;
+    color:#F8E8DA;
 }
 
 .second-span{
     font-size: 40px; 
     font-family: "Montserrat";
     text-align: center; 
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    color:#F8E8DA;
 }
 
+.third-span{
+
+  font-size:23px;
+  font-family:"Montserrat";
+ margin-bottom:60px;
+  color:#F8E8DA;
+
+  
+}
 .index-0-div{
  display: flex;
   flex-direction: column;
@@ -271,6 +282,7 @@ a {
      font-family: "Montserrat";
     text-align: center;
     width:1000px;
+    color:#F8E8DA;
 }
 
 /* Add this to your CSS file */

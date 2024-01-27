@@ -28,7 +28,7 @@ const Text = ({ text, index }) => {
           <div className="index-0-div">
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
             <span className="second-span" >{text} 2024</span>
-            
+            <span className="third-span" >19-21st APRIL, 2024</span>
             <a href="https://www.youtube.com/" >
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
               <button class="btn" >
@@ -38,8 +38,8 @@ const Text = ({ text, index }) => {
                 <span class="btn__bg__layer btn__bg__layer-third"></span>
               </div>
 
-              <span class="btn__text-out">REGISTER</span>
-              <span class="btn__text-in">REGISTER</span>
+              <span class="btn__text-out">REGISTER AS EB</span>
+              <span class="btn__text-in">REGISTER AS EB</span>
             </button>
             </a>
           </div>
