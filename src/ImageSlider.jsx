@@ -1,7 +1,7 @@
 import { ArrowBigLeft, ArrowBigRight, CircleDot, Circle } from "lucide-react";
 import { useState } from "react";
 import "./ImageSlider.css";
-import img5 from "../img/i5.jpg";
+import img5 from "../i5.jpg";
 import {BsChevronCompactLeft} from 'react-icons/bs';
 import {BsChevronCompactRight} from 'react-icons/bs';
 import {BsChevronCompactUp} from 'react-icons/bs';
