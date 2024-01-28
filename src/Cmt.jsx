@@ -35,7 +35,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/DISEC.png" className="image" draggable="false"  />
+        <img src="../DISEC.png" className="image" draggable="false"  />
       </div>
       <div className="card" >
         <div className="content">
