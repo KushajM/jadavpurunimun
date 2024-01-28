@@ -23,11 +23,10 @@ function App() {
 
 
   return (
-    <Preloader />
     <Router>
    {/* <Preloadertwo /> */}
    
-
+  <Preloader />
   <Navbar />
   <Slider />
   
