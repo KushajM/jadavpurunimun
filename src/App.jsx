@@ -21,6 +21,10 @@ function App() {
   const [count, setCount] = useState(0)
   const [initialLoad, setInitialLoad] = useState(true);
 
+  useEffect(() => {
+    document.title = 'JUMUN 2024';
+  }, []);
+
 
   return (
     <Router>

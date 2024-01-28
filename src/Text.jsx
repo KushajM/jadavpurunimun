@@ -55,7 +55,7 @@ const Text = ({ text, index }) => {
             </button>
             </a>
 
-            <span className="cmt-guesser"><a href="#" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
+            <span className="cmt-guesser"><a href="https://forms.gle/kHQMaH3ZKCYFoarGA" target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
           </div>
 
           
