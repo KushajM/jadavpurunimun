@@ -1,3 +1,12 @@
+*{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 
 
 /* css slider */
@@ -6,8 +15,9 @@
     height: 100vh;
    z-index: 1;
     position: relative;
-    margin-top:-100vh;
+  margin-top:-100vh;
     overflow-y:hidden;
+    background-image: url('backgroundcover.jpg');
 
 }
  .slider  .list .item{

@@ -1,13 +1,24 @@
 import React from 'react';
 import "./landing.css";
 import "./Text.scss"
-
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Text = ({ text, index }) => {
   const scrollToCommittees = (event) => {
     event.preventDefault();
   
     const committeesSection = document.getElementById("committees");
+    if (committeesSection) {
+      committeesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollTocontact = (event) => {
+    event.preventDefault();
+  
+    const committeesSection = document.getElementById("contact");
     if (committeesSection) {
       committeesSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -26,10 +37,11 @@ const Text = ({ text, index }) => {
           
           
           <div className="index-0-div">
+          
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
-            <span className="second-span" >{text} 2024</span>
+            <span className="second-span" >{text}</span>
             <span className="third-span" >19-21st APRIL, 2024</span>
-            <a href="https://www.youtube.com/" >
+            <a href="https://forms.gle/cbMxur7Aa9cZ9fiKA" target="_blank">
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
               <button class="btn" >
               <div class="btn__bg">
@@ -42,6 +54,8 @@ const Text = ({ text, index }) => {
               <span class="btn__text-in">REGISTER AS EB</span>
             </button>
             </a>
+
+            <span className="cmt-guesser"><a href="#" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
           </div>
 
           
@@ -71,8 +85,8 @@ const Text = ({ text, index }) => {
           
           
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
-          <span className="first-span" >{text }</span>
-            <span className="second-span" ><a href="#" onClick={scrollToCommittees} ><span className="index_1_link">Click here</span></a> to know more</span>
+          <span className="first-span-3" >{text }</span>
+            <span className="second-span"  ><a href="#" onClick={scrollTocontact} ><span className="index_1_link">Contact us</span></a> and we will reach out to you!</span>
             
             
            
@@ -82,6 +96,27 @@ const Text = ({ text, index }) => {
         </>
       )}
 
+{index === 3 && (
+        <>
+          
+          
+          
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
+          <span className="first-span" >{text }</span>
+            <span className="second-span" style={{fontSize:"30px",marginBottom:"40px"}} >Make sure to follow us on our social media<a href="/blog" ><span className="index_3_link"></span></a></span>
+            <span className="third-span">
+            <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA"}}/></a>
+          <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA",marginLeft:"20px"}}/></a>
+            </span>
+            
+           
+          </div>
+
+          
+        </>
+      )}
+
+
 {index === 4 && (
         <>
           
@@ -89,7 +124,7 @@ const Text = ({ text, index }) => {
           
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
           <span className="first-span-4" ><span className="index_4_link">Stay tuned </span>for updates</span>
-          <span className="regular" style={{ fontSize: "20px", fontFamily: "Montserrat", textAlign: "center", marginTop: "30px",width:"1000px"}}>Apathy's a tragedy and boredom is a crime</span>
+          <span className="regular" style={{ fontSize: "20px", fontFamily: "Montserrat", textAlign: "center", marginTop: "30px"}}>Apathy's a tragedy and boredom is a crime</span>
             
             
             

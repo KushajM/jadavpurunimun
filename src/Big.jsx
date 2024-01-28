@@ -14,6 +14,15 @@ const Big = () => {
     
   }, []);
 
+   const scrollTotextsec = (event) => {
+    event.preventDefault();
+  
+    const committeesSection = document.getElementById("textsec");
+  
+    if (committeesSection) {
+      committeesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   // const scrollTosec2 = (event) => {
   //   event.preventDefault();
   
@@ -130,34 +139,53 @@ const Big = () => {
      
   
   // </div>
+  useEffect(() => {
+    const scrollLimit = 60;
 
+    const handleScroll = () => {
+      if (document.documentElement.scrollTop > scrollLimit) {
+        document.documentElement.scrollTop = scrollLimit;
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll);
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
  
-
   return (
     <div className="bigabout" id="extended">
-      <div className="top-section">
-      
-          <div className="animation_layer" id="landingimg1" data-aos="fade-in"><h1 className="heading" >ABOUT US</h1>
+      <div className="we-are-block">
+        <div id="about-us-section">
+          <div className="about-us-image">
+            <img
+              src="../img/jumunabout2.jpg"
+              width="808"
+              height="458"
+              alt="Lobby Image"
+            />
+          </div>
+          <div className="about-us-info">
+            <h2>ABOUT JUMUN</h2>
+            <p>
+            Jadavpur University's global renounce comes for what it collectively wishes to achieve as an academic institution and a space for critical thinking. The JU Model United Nations is the manifestation of that desire. It is a platform by the University for students across the world to construct a vision for a better tomorrow. 
+            <br />
+            <br />
+            Since its inception in 2015, Jadavpur University Model United Nations (JUMUN) has evolved into a prominent platform for diplomatic discourse and international awareness. Inaugurated by Mr. Yuri Kolobanov, Consulate General of the Russian Federation to India, the inaugural edition marked the beginning of a legacy renowned in the East India circuit. Subsequent editions, such as the impactful 2017 gathering of 5000 participants, delved into crucial issues like Sustainable Development and healthcare policies. JUMUN's commitment extended in 2018 with initiatives addressing social concerns, advocating education for underprivileged children, and promoting women's healthcare. The initiative continued to flourish, introducing the JUMUN Junior's Initiative in 2019 and successfully transitioning to an online format in 2021 amidst global health dynamics. With diverse forums and a global presence, JUMUN consistently fosters informed discussions on matters ranging from geopolitical crises to environmental agreements.
+            <br />
+            <br />
+            With a legacy this strong, we as a team only aim to expand our ambit further by extending the conversation to people in this country and abroad. We understand our role and responsibility in addressing the real issues that lie outside committee rooms and we only aim to extend this in our 9th edition by aspiring to diversify our dialogue and endeavour.
+            </p>
            
           </div>
-      </div>
-
-          <div className="text-con" data-aos="fade-up">
-
-            
-        <h2 className="text" ><span>Jadavpur University Model United Nations (JUMUN)</span> is an embodiment of Jadavpur University's global vision and commitment to fostering critical thinking. Established in 2015 and inaugurated by Mr. Yuri Kolobanov, Consulate General of the Russian Federation to India, JUMUN has evolved into a <span> prestigious platform for students worldwide.</span> <br /><br /> The inaugural edition featured three committees and set the stage for its reputation as <span>one of the finest in East India.</span> Over the years, JUMUN's influence expanded, hosting diverse forums such as the Fifth World Conference on Women and the Department for Exiting the European Union. <br /> <br/>The 2018 edition marked a pivotal moment as JUMUN recognized the need for Civil Society Initiatives, advocating for education in underprivileged communities and promoting women's healthcare.
-
-In 2019, JUMUN introduced the JUMUN Junior's Initiative, focusing on <span>equipping students with public speaking skills and global political awareness.</span> The 7th edition in 2021, adapting to health dynamics, went online, drawing over 2000 active participants addressing issues from the Afghanistan crisis to the Paris Climate Agreement.<br /> <br />
-
-With a robust legacy, JUMUN aims to further expand its reach in the 9th edition, engaging in diverse dialogues and endeavors. Beyond committee rooms, JUMUN acknowledges its role and responsibility in addressing real-world issues, aspiring to make a <span>meaningful impact both nationally and internationally.</span></h2>
         </div>
         
-    
-      
+      </div>
     </div>
   );
 };
-
 
 
       

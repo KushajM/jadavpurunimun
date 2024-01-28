@@ -3,10 +3,8 @@ import "./Cmt.css"
 import {cmtMenu} from "./animations/cmt.js"
 import 'aos/dist/aos.css'; // Import the AOS styles
 import AOS from 'aos';
-import { Link } from 'react-router-dom';
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'; // Import BrowserRouter
 import ReactDOM from 'react-dom/client';
-import {useNavigate} from "react-router-dom";
 
 
 const Cmt = () => {
@@ -33,9 +31,9 @@ const Cmt = () => {
             <br />
             International Security 
             Committee</p>
-            <Link to="/bigcmt" target="_blank" className="agenda">
+            <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/DISEC.png" className="image" draggable="false"  />
       </div>
@@ -43,9 +41,9 @@ const Cmt = () => {
         <div className="content">
           <h2>UNCSW</h2>
           <p>Commission on Status of <br /> Women</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/UNW.png" className="image" draggable="false" />
       </div>
@@ -53,9 +51,9 @@ const Cmt = () => {
         <div className="content">
           <h2>LOK SABHA</h2>
           <p>Lok Sabha</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/LOKSABHA.png" className="image" draggable="false" />
       </div>
@@ -64,9 +62,9 @@ const Cmt = () => {
         <div className="content">
           <h2>VPC</h2>
           <p>Viceroy's Partition Council</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/VPC.png" className="image" draggable="false" />
       </div>
@@ -76,9 +74,9 @@ const Cmt = () => {
           <h2>UNHCR</h2>
           <p>United Nations High 
             <br />Commissioner of Refugee</p>
-            <Link to="/bigcmt" target="_blank" className="agenda">
+            <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/HCR.png" className="image" draggable="false" />
       </div>
@@ -88,9 +86,9 @@ const Cmt = () => {
         <div className="content">
           <h2>UNODC</h2>
           <p>United Nations Office on Drugs and Crime</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/odc2.png" className="image" draggable="false" />
       </div>
@@ -99,9 +97,9 @@ const Cmt = () => {
         <div className="content">
           <h2>UNICEF</h2>
           <p>United Nations Children's Fund</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/unicef2.png" className="image" draggable="false" />
       </div>
@@ -109,9 +107,9 @@ const Cmt = () => {
         <div className="content">
           <h2>IP</h2>
           <p>International Press</p>
-          <Link to="/bigcmt" target="_blank" className="agenda">
+          <a href="/bigcmt"  className="agenda">
         Agenda
-      </Link>
+      </a>
         </div>
         <img src="../img/IP.png" className="image" draggable="false" />
       </div>

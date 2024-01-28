@@ -2,8 +2,8 @@
 import ImageSlider from "./ImageSlider.jsx"
 import img1 from "../img/background3.jpg"
 import img2 from "../img/imagebg1.jpg"
-import img3 from "../img/i3.jpg"
-import img4 from "../img/i4.jpg"
+import img3 from "../img/blogbackground.jpg"
+import img4 from "../img/contactbg2.jpg"
 import img5 from "../img/imagebg2.jpg"
 import "./Slider.css"
 

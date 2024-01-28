@@ -173,6 +173,7 @@
     width: 150px;
 }
 .index_1_link,
+.index_3_link,
 .index_4_link {
   cursor: pointer;
   /* ... other styles ... */
@@ -197,6 +198,12 @@
     cursor:pointer; 
 }
 
+.index_3_link{
+  background: linear-gradient(to right,#ff65c1 30% ,#ffbf52, #eb3642 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 a {
     text-decoration:none;
 }
@@ -210,6 +217,7 @@ a {
 
 .regular{
     position:relative;
+    width:1000px;
     
     &::before{
         content:"\201C";
@@ -284,12 +292,66 @@ a {
     width:1000px;
     color:#F8E8DA;
 }
+.cmt-guesser{
+  font-family:"Montserrat";
+  position:absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  bottom:0;
+  margin-bottom:-50px;
+
+ 
+ 
+ 
+  font-size:14px;
+ animation: textslide 2s infinite;
+  cursor:pointer;
+}
+
+@keyframes textslide{
+  0%{
+     
+      opacity:0.5;
+      
+  }
+
+  50%{
+   
+    opacity:1;
+   
+  }
+
+  100%{
+    opacity:0.5;
+   
+  }
+}
+
+.first-span-3{
+  font-size: 62px; 
+  margin-bottom: 10px; 
+  font-family: "Montserrat";
+ text-align: center;
+ width:1000px;
+ color:#F8E8DA;
+}
 
 /* Add this to your CSS file */
 @media (max-width: 767px) {
 
   .mega-img-container{
     
+  }
+
+  .cmt-guesser a {
+    
+  }
+
+  .btn{
+    margin-bottom:50px;
   }
     .first-span{
         font-family: "Montserrat";
@@ -300,7 +362,7 @@ a {
     }
     .first-span-4{
         font-size: 40px; 
-        margin-bottom: 30px; 
+        margin-bottom: -150px; 
         font-family: "Montserrat";
        text-align: center;
        width:350px;
@@ -308,14 +370,21 @@ a {
     }
     .second-span{
         width:350px;
-        font-size:25px;
+        font-size:28px;
         font-family: "Montserrat";
     text-align: center; 
     font-weight:200;
     line-height: 40px;
 
     }
-
+    .first-span-3{
+      font-size: 40px; 
+      margin-bottom: 30px; 
+      font-family: "Montserrat";
+     text-align: center;
+     width:350px;
+     line-height:60px;
+    }
     .first-span:nth-child(1){
         margin-bottom:25px;
     }
@@ -324,8 +393,7 @@ a {
        
         font-size:50px;
     }
-    
-
+   
   
 
     .index-0-div{
@@ -336,6 +404,7 @@ a {
 
     .regular{
         opacity:0;
+        width:0px;
         
         
     }

@@ -9,7 +9,7 @@ import "./Text.scss"
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons'
-
+import Swal from 'sweetalert2'
  // Import the CSS file
 // npm i @emailjs/browser
 
@@ -26,16 +26,26 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_blrqlmr",
-        "template_b29nfls",
+        "service_yzah8x4",
+        "template_7msa69t",
         form.current,
-        "0goypKUXo5DRnQzbR"
+        "9Fe9BK0IEQ0RBOEHb"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log("message sent");
-
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Message submitted!",
+            showConfirmButton: false,
+            timer: 1500,
+            color:"#FAEEE3",
+            background:"#5C012E",
+            iconColor: '#FAEEE3',
+           
+          });
           form.current.reset();
         },
         (error) => {
@@ -50,7 +60,7 @@ const Contact = () => {
         <div className="contact-container">
     <main className="row">
       {/* Left Section (Column) Starts */}
-      <section className="col left" data-aos="fade-in">
+      <section className="col left" data-aos="fade-in" >
         {/* Title Starts */}
         <div className="contactTitle">
           <h2>CONTACT US</h2>

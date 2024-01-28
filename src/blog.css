@@ -1,0 +1,42 @@
+.blog-container{
+    height:100vh;
+    margin-top:-100vh;
+    position: absolute;
+    background-color: #240A1F;
+    width:100%;
+
+}
+
+
+
+.blog-container h1{
+
+    color:#F8E8DA;
+    font-size:56px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    max-width:100%;
+    margin:0 auto;
+   
+}
+
+.blog-container h1 span{
+    background: linear-gradient(to right,#f82ca7 ,#DC9924 ); /* Your blue and yellow gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+}
+@media (max-width:767px){
+
+    .blog-container{
+        overflow-x: hidden;
+        width:90%;
+    }
+    .blog-container h1{
+        text-align: left;
+      
+        overflow-x: hidden;
+    }
+}

@@ -15,8 +15,8 @@ function ImageSlider({ imageUrls }) {
   const defaultImageTexts = [
     "MODEL UNITED NATIONS",
     "Be Greater, Together.",
-    "Meet our architects",
-    "Fourth text",
+    "Have a query?",
+    "Lights, camera, socials!",
     "",
   ];
 

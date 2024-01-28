@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -14,8 +14,8 @@ import Bigcmt from "./Bigcmt.jsx"
 import Contact from "./Contact.jsx"
 import Scroller from "./Scroller.jsx"
 import Footer from "./Footer.jsx"
-import Preloadertwo from "./PreloaderTwo.jsx"
 import Navbar from "./Navbar.jsx"
+import Blog from "./Blog.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,15 +29,16 @@ function App() {
 
       
    {/* <Preloadertwo /> */}
-   <Navbar />
+   
   <Preloader />
+  <Navbar />
   <Slider />
   
   <Routes>
     
     <Route exact path ="/big"  element={<Big />} />
     <Route exact path ="/bigcmt" element={<Bigcmt />} />
-
+    <Route exact path ="/blog" element={<Blog />} />
 
     </Routes>
   <About />

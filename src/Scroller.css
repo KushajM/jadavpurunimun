@@ -127,7 +127,9 @@
   }
   @media (max-width:400px){
    
-
+    .outer-container-scroll{
+      margin-top:560vh;
+    }
     .heading1{
       margin-top:250px;
       margin-bottom:40px;

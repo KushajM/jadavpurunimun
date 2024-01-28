@@ -70,7 +70,7 @@ const Footer = () => {
               <li><a href="#" onClick={(event) => scrollToCommittees(event)}>Committees</a></li>
 
 
-              <li><a href="#">Blog</a></li>
+             
               <li><a href="#" onClick={(event) => scrollToContact(event)}>Contact</a></li>
             </ul>
           </div>

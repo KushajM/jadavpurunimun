@@ -203,16 +203,16 @@
 
   position:relative;
   color:#faefef;
-  background:#BD2D76;/* Your blue and yellow gradient */
+  
   
   display:inline-block;
   text-align: center;
-  padding: 10px 10px;
+  margin-left:-30px;
   font-family:"Montserrat";
   margin-bottom:80px;
   text-decoration:none;
   font-weight:700;
-  width:100px;
+  width:150px;
   border-radius:10px;
 
 }
