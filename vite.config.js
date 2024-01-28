@@ -7,6 +7,5 @@ export default defineConfig({
   options: {
       indentedSyntax: true
   },
-  base:"/",
   plugins: [react()],
 })
