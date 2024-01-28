@@ -24,10 +24,6 @@ function App() {
 
   return (
     <Router>
-
-     
-
-      
    {/* <Preloadertwo /> */}
    
   <Preloader />
@@ -36,9 +32,9 @@ function App() {
   
   <Routes>
     
-    <Route exact path ="/big"  element={<Big />} />
-    <Route exact path ="/bigcmt" element={<Bigcmt />} />
-    <Route exact path ="/blog" element={<Blog />} />
+    <Route path ="/big"  element={<Big />} />
+    <Route path ="/bigcmt" element={<Bigcmt />} />
+    <Route path ="/blog" element={<Blog />} />
 
     </Routes>
   <About />
