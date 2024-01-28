@@ -1,5 +1,6 @@
 {
-  
+  "homepage":"https://kushajm.github.io/jadavpurunimun",
+
   "name": "jadavpurunimun",
   
   "private": true,
@@ -9,6 +10,10 @@
   "type": "module",
   
   "scripts": {
+
+  "predeploy":"npm run build",
+
+  "deploy":"gh-pages -d dist",
   
     
   "dev": "vite",
