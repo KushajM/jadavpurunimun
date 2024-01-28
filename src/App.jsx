@@ -31,7 +31,7 @@ function App() {
   <Slider />
   
   <Routes>
-    <Route path ="/" element = {<Slider />} />
+    
     <Route path ="/big"  element={<Big />} />
     <Route path ="/bigcmt" element={<Bigcmt />} />
     <Route path ="/blog" element={<Blog />} />
