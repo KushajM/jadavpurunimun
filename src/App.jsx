@@ -28,6 +28,7 @@ function App() {
    
   <Preloader />
   <Navbar />
+  
   <Slider />
   
   <Routes>

@@ -45,7 +45,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/UNW.png" className="image" draggable="false" />
+        <img src="../UNW.png" className="image" draggable="false" />
       </div>
       <div className="card"  >
         <div className="content">
@@ -55,7 +55,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/LOKSABHA.png" className="image" draggable="false" />
+        <img src="../LOKSABHA.png" className="image" draggable="false" />
       </div>
       
         <div className="card"  >
@@ -66,7 +66,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/VPC.png" className="image" draggable="false" />
+        <img src="../VPC.png" className="image" draggable="false" />
       </div>
      
       <div className="card">
@@ -78,7 +78,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/HCR.png" className="image" draggable="false" />
+        <img src="../HCR.png" className="image" draggable="false" />
       </div>
      
 
@@ -90,7 +90,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/odc2.png" className="image" draggable="false" />
+        <img src="../odc2.png" className="image" draggable="false" />
       </div>
 
       <div className="card" >
@@ -101,7 +101,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/unicef2.png" className="image" draggable="false" />
+        <img src="../unicef2.png" className="image" draggable="false" />
       </div>
       <div className="card" >
         <div className="content">
@@ -111,7 +111,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../img/IP.png" className="image" draggable="false" />
+        <img src="../IP.png" className="image" draggable="false" />
       </div>
      
       

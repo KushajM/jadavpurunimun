@@ -41,7 +41,7 @@ const Text = ({ text, index }) => {
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
             <span className="second-span" >{text}</span>
             <span className="third-span" >19-21st APRIL, 2024</span>
-            <a href="https://forms.gle/cbMxur7Aa9cZ9fiKA" target="_blank">
+            <a href="https://forms.gle/ZKTvmKqfqzqYHNQ76" target="_blank">
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
               <button class="btn" >
               <div class="btn__bg">

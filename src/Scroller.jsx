@@ -61,34 +61,34 @@ const Scroll = () => {
 
 
     <div className="images" >
-      <img src="../img/USConsulate.jpg" alt="" />
-      <img src="../img/MUNRefugeeChallenge.png" alt="" />
-      <img src="../img/Child.png" alt="" />
+      <img src="../USConsulate.jpg" alt="" />
+      <img src="../MUNRefugeeChallenge.png" alt="" />
+      <img src="../Child.png" alt="" />
     </div>
   
     <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"60px"}}>Past partners</h1>
   
 <div className="scroller" data-direction="right" data-speed="fast" >
   <div className="scroller__inner">
-    <img src="../img/SBI.png" alt="" />
-    <img src="../img/classNamemate.jpg" alt=""  />
-    <img src="../img/Telegraph.jpg" alt="" />
-    <img src="../img/FriendsFM.jpg" alt=""  />
-    <img src="../img/IMS.png" alt="" />
-    <img src="../img/Sporjo.png" alt="" />
+    <img src="../SBI.png" alt="" />
+    <img src="../classmate.jpg" alt=""  />
+    <img src="../Telegraph.jpg" alt="" />
+    <img src="../FriendsFM.jpg" alt=""  />
+    <img src="../IMS.png" alt="" />
+    <img src="../Sporjo.png" alt="" />
   </div>
 </div>
 
 
 <div className="scroller" data-direction="left" data-speed="fast" style={{marginBottom:"100px"}}>
     <div className="scroller__inner">
-      <img src="../img/Decathlon.png" alt="" />
-      <img src="../img/Rapido.jpg" alt=""  />
-      <img src="../img/T2.jpg" alt="" />
-      <img src="../img/Kwikpic.jpg" alt=""  />
-      <img src="../img/BBA.jpg" alt=""   />
-      <img src="../img/VaniInstitute.png" alt="" />
-     <img src="../img/Educrat.png" alt="" />
+      <img src="../Decathlong.png" alt="" />
+      <img src="../Rapido.jpg" alt=""  />
+      <img src="../T2.jpg" alt="" />
+      <img src="../Kwikpic.jpg" alt=""  />
+      <img src="../BBA.jpg" alt=""   />
+      <img src="../VaniInstitute.png" alt="" />
+     <img src="../Educrat.png" alt="" />
     </div>
   </div>
 
