@@ -162,6 +162,7 @@
     box-sizing: border-box;
     overflow: auto;
     justify-content: center;
+    cursor: pointer;
 }
 .thumbnail::-webkit-scrollbar{
     width: 0;
@@ -172,6 +173,7 @@
     filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
+    cursor: pointer;
 }
 .thumbnail .item img{
     width:170px;
