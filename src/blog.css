@@ -28,7 +28,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
 }
-@media (max-width:767px){
+@media (max-width:776px){
 
     .blog-container{
         overflow-x: hidden;

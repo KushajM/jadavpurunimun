@@ -51,7 +51,7 @@
 }
 
 
-@media (max-width:767px){
+@media (max-width:776px){
   .preloader .texts-container {
     font-family: 'Montserrat';
     color: #353839;
@@ -60,7 +60,7 @@
     justify-content: center;
     height: 50px;
     width: 1280px;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
     overflow: hidden;
   }

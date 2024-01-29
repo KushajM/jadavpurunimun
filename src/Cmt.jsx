@@ -1,27 +1,29 @@
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import "./Cmt.css"
 import {cmtMenu} from "./animations/cmt.js"
 import 'aos/dist/aos.css'; // Import the AOS styles
 import AOS from 'aos';
-import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter as Router,Routes,Route, Link, Navigate } from 'react-router-dom'; // Import BrowserRouter
 import ReactDOM from 'react-dom/client';
 
 
 const Cmt = () => {
-
-
+  
     useEffect(()=>{
         cmtMenu();
         
         AOS.init({ duration: 1200 });
       },[]);
     
+   
 
+      
   return (
     
     <div className="committee-page" id="committees">
       
         <h1 data-aos="fade-up">COMMITTEES</h1>
+       
     <div className="container" data-mouse-down-at="0" data-prev-percentage="0" id="image-track" >
         
       <div className="card" >
@@ -41,7 +43,7 @@ const Cmt = () => {
         <div className="content">
           <h2>UNCSW</h2>
           <p>Commission on Status of <br /> Women</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt" className="agenda">
         Agenda
       </a>
         </div>
@@ -116,6 +118,7 @@ const Cmt = () => {
      
       
       </div>
+      <h2 className="swipe-text">(Click and swipe left to view)</h2>
       </div>
   );
 };

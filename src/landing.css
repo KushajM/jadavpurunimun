@@ -340,7 +340,7 @@ a {
 }
 
 /* Add this to your CSS file */
-@media (max-width: 767px) {
+@media (max-width:776px) {
 
   .mega-img-container{
     

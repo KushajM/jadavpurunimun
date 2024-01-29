@@ -146,7 +146,7 @@
     }
 
   }
-  @media (max-width:767px) {
+  @media (max-width:776px) {
     .outer-container-scroll{
       margin-top:554vh;
     }

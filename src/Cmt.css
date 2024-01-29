@@ -112,6 +112,12 @@ line-height:1em;
 font-family:"Montserrat";
 }
 
+.swipe-text{
+    color:#F9EBDA;
+    font-size:12px;
+    margin-top:65vh;
+    margin-left:45vw;
+}
 .container .card .content p{
 margin-top:-7px;
 color:#F9EBDA;
@@ -135,7 +141,8 @@ border-radius:10px;
 
 }
 
-@media (max-width:767px){
+
+@media (max-width:776px){
     
     .committee-page{
       
@@ -144,7 +151,10 @@ border-radius:10px;
         overflow-x:hidden;
         margin:0;
     }
-    
+    .swipe-text{
+        font-size:0px;
+        opacity:0;
+    }
 
 
 .committee-page h1{
@@ -290,7 +300,7 @@ position: relative;
 }
 }
 
-@media (max-width:767px){
+@media (max-width:776px){
 .container{
     
     flex-direction:column;

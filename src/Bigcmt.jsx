@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Bigcmt.css';
 
 const Bigcmt = () => {
-    const [itemActive, setItemActive] = useState(0);
+    const [itemActive, setItemActive] = useState(-2);
   const countItem = 8;
 
   const nextClick = () => {

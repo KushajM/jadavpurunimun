@@ -86,7 +86,7 @@ max-width:75%;
 }
 
 
-@media screen and (max-width: 747px) {
+@media screen and (max-width:776px) {
   #about-us-section {
     flex-direction: column;
     justify-content: space-between;
