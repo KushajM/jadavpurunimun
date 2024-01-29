@@ -127,11 +127,11 @@
   }
   @media (max-width:400px){
     .outer-container-scroll{
-      margin-top:574vh !important;
+      margin-top:578vh !important;
     }
   
     .heading1{
-      margin-top:250px;
+      margin-top:260px;
       margin-bottom:40px;
       font-size:30px;
     }

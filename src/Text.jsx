@@ -113,7 +113,7 @@ const Text = ({ text, index }) => {
           
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
           <span className="first-span" >{text }</span>
-            <span className="second-span" style={{fontSize:"30px",marginBottom:"40px"}} >Make sure to follow us on our social media<a href="/blog" ><span className="index_3_link"></span></a></span>
+            <span className="second-span" style={{fontSize:"25px",marginBottom:"40px"}} >Make sure to follow us on our social media<a href="/blog" ><span className="index_3_link"></span></a></span>
             <span className="third-span">
             <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA"}}/></a>
           <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA",marginLeft:"20px"}}/></a>
