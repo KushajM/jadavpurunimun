@@ -3,7 +3,7 @@ import "./Cmt.css"
 import {cmtMenu} from "./animations/cmt.js"
 import 'aos/dist/aos.css'; // Import the AOS styles
 import AOS from 'aos';
-import { BrowserRouter as Router,Routes,Route, Link, Navigate } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'; // Import BrowserRouter
 import ReactDOM from 'react-dom/client';
 
 
