@@ -211,14 +211,14 @@
  .list .item.active p:nth-child(2){
     animation-delay: 1s;
     text-align: center;
-    font-size:17px;
+    font-size:15px;
     font-weight:700;
 }
    
  .slider  .list .item p:nth-child(2) {
    
    font-weight:1000;/* Add some margin between spans if needed */
-   font-size:17px;
+   font-size:15px;
  }
     .arrows{
         top:2%;

@@ -25,12 +25,12 @@ function App() {
     document.title = 'JUMUN 2024';
   }, []);
 
-
+  const isHomeRoute = location.pathname === '/';
   return (
     <Router>
    {/* <Preloadertwo /> */}
    
-  <Preloader />
+   {initialLoad && isHomeRoute && <Preloader />}
   <Navbar />
   
   <Slider />

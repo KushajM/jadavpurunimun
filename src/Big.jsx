@@ -140,7 +140,7 @@ const Big = () => {
   
   // </div>
   useEffect(() => {
-    const scrollLimit = 60;
+    const scrollLimit = 0;
 
     const handleScroll = () => {
       if (document.documentElement.scrollTop > scrollLimit) {
