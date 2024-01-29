@@ -65,6 +65,7 @@ const Scroll = () => {
       <img src="../MUNRefugeeChallenge.png" alt="" />
       <img src="../Child.png" alt="" />
       <img src="../RussianConsulate.jpg" alt="" />
+      <img src="../AustralianConsulate.jpg" alt="" />
     </div>
   
     <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"60px"}}>Past partners</h1>
