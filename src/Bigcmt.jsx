@@ -14,21 +14,13 @@ const Bigcmt = () => {
   };
 
   useEffect(() => {
-    // Initial run after component mount
-    nextClick();
-
-  
    
+    nextClick();
   }, []);
 
   const showSlider = (index) => {
     setItemActive(index);
 
-   
- 
-  
-
-    // Save the new interval in the state
   
   };
  

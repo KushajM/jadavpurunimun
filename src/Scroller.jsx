@@ -64,7 +64,7 @@ const Scroll = () => {
       <img src="../USConsulate.jpg" alt="" />
       <img src="../MUNRefugeeChallenge.png" alt="" />
       <img src="../Child.png" alt="" />
-      <img src="../RussianConsulate.jpg" alt="" />
+
       <img src="../AustralianConsulate.jpg" alt="" />
     </div>
   

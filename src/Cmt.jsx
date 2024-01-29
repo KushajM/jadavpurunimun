@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import "./Cmt.css"
 import {cmtMenu} from "./animations/cmt.js"
-import 'aos/dist/aos.css'; // Import the AOS styles
+import 'aos/dist/aos.css'; 
 import AOS from 'aos';
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 
 
@@ -15,9 +15,7 @@ const Cmt = () => {
         AOS.init({ duration: 1200 });
       },[]);
     
-   
-
-      
+  
   return (
     
     <div className="committee-page" id="committees">
