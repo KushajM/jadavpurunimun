@@ -68,7 +68,7 @@ const Scroll = () => {
       <img src="../AustralianConsulate.jpg" alt="" />
     </div>
   
-    <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"60px"}}>Past partners</h1>
+    <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"160px"}}>Past partners</h1>
   
 <div className="scroller" data-direction="right" data-speed="fast" >
   <div className="scroller__inner">
