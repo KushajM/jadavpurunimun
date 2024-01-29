@@ -32,7 +32,7 @@
 
     .blog-container{
         overflow-x: hidden;
-        width:90%;
+        width:100%;
     }
     .blog-container h1{
         text-align: left;

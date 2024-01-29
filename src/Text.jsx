@@ -34,6 +34,11 @@ const Text = ({ text, index }) => {
     const formUrl = 'https://forms.gle/ZKTvmKqfqzqYHNQ76';
     window.open(formUrl, '_blank');
   };
+
+  const openFormQuiz = () => {
+    const formUrl = 'https://forms.gle/kHQMaH3ZKCYFoarGA';
+    window.open(formUrl, '_blank');
+  };
   return (
     <div className="mega-img-container">
       {index === 0 && (
@@ -60,7 +65,7 @@ const Text = ({ text, index }) => {
             </button>
            
 
-            <span className="cmt-guesser"><a href="https://forms.gle/kHQMaH3ZKCYFoarGA" target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
+            <span className="cmt-guesser"><a href="" onClick={openFormQuiz} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
           </div>
 
           

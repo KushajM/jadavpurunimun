@@ -1,6 +1,7 @@
-"use client";
+
 import React, { useEffect, useState } from "react";
 import "./Preloader.css";
+import { Helmet } from "react-helmet";
 import {preLoaderAnim} from "./animations/index.js";
 
 const Preloader = () => {
@@ -15,6 +16,8 @@ const Preloader = () => {
 
 
   return (
+   
+      
     <div className="preloader">
         <div className="texts-container" >
           
@@ -23,6 +26,7 @@ const Preloader = () => {
             <span>Diplomacy</span>
           </div>
       </div>
+   
   );
 };
 
