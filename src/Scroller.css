@@ -126,17 +126,26 @@
     font-family:"Montserrat";
   }
   @media (max-width:400px){
-   
     .outer-container-scroll{
-      margin-top:560vh;
+      margin-top:574vh !important;
     }
+  
     .heading1{
       margin-top:250px;
       margin-bottom:40px;
       font-size:30px;
     }
   }
+  @media (max-width:380px){
+    .outer-container-scroll{
+      margin-top:614vh !important;
+    }
 
+    .heading1{
+      margin-top:200px !important;
+    }
+
+  }
   @media (max-width:767px) {
     .outer-container-scroll{
       margin-top:554vh;
@@ -163,7 +172,7 @@
   }
   
   .heading1{
-    margin-top:200px;
+    margin-top:160px;
     margin-bottom:40px;
     font-size:30px;
   }

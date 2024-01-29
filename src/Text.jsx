@@ -29,6 +29,11 @@ const Text = ({ text, index }) => {
     window.location.href = "https://www.youtube.com";
   };
   
+
+  const openForm = () => {
+    const formUrl = 'https://forms.gle/ZKTvmKqfqzqYHNQ76';
+    window.open(formUrl, '_blank');
+  };
   return (
     <div className="mega-img-container">
       {index === 0 && (
@@ -41,9 +46,9 @@ const Text = ({ text, index }) => {
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
             <span className="second-span" >{text}</span>
             <span className="third-span" >19-21st APRIL, 2024</span>
-            <a href="https://forms.gle/ZKTvmKqfqzqYHNQ76" target="_blank">
+            
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
-              <button class="btn" >
+              <button class="btn"  onClick={openForm} >
               <div class="btn__bg">
                 <span class="btn__bg__layer btn__bg__layer-first"></span>
                 <span class="btn__bg__layer btn__bg__layer-second"></span>
@@ -53,7 +58,7 @@ const Text = ({ text, index }) => {
               <span class="btn__text-out">REGISTER AS EB</span>
               <span class="btn__text-in">REGISTER AS EB</span>
             </button>
-            </a>
+           
 
             <span className="cmt-guesser"><a href="https://forms.gle/kHQMaH3ZKCYFoarGA" target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
           </div>

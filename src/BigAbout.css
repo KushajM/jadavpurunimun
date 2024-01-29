@@ -112,8 +112,8 @@ max-width:75%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
-  font-size:35px;
-  margin-top:70px;
+  font-size:40px;
+  margin-top:120px;
   position: absolute;
   top:-20px;
 left:50%;
@@ -128,7 +128,7 @@ transform: translateX(-50%);
   transform:translate(-50%,-50%);
   width:400px;
   font-size:17px;
-  margin-top:150px;
+  margin-top:200px;
 }
 }
 
@@ -136,7 +136,9 @@ transform: translateX(-50%);
 @media screen and (max-width: 400px){
 
   .about-us-info h2{
+    margin-top:120px;
     width:350px;
+    font-size:40px;
   }
 
   .about-us-info p{
@@ -145,8 +147,8 @@ transform: translateX(-50%);
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    margin-top:150px;
-    font-size:16px;
+    margin-top:270px;
+    font-size:17px;
 
   }
 
@@ -156,4 +158,26 @@ transform: translateX(-50%);
   .about-us-image{
     height:150vh;
   }
+}
+
+
+@media screen and (max-width: 380px){
+  .about-us-info h2{
+    margin-top:120px;
+    width:350px;
+    font-size:40px;
+    font-size:40px !important;
+  }
+
+  .about-us-info p{
+    width:360px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin-top:250px;
+    font-size:15px;
+
+  }
+
 }

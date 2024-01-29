@@ -139,7 +139,7 @@ border-radius:10px;
     
     .committee-page{
       
-        max-width:100%;
+        width:100%;
         min-height:400vh;
         overflow-x:hidden;
         margin:0;
@@ -175,19 +175,20 @@ border-radius:10px;
 .container{
     position: absolute;
     margin-top:-200vh;
-    max-width:400px;
+    width:400px;
     overflow-x:hidden;
     display:flex;
    
     }
 .container .card{
     all:unset;
+   
     display:flex;
 justify-content: flex-start;
 align-items: center;
 position: relative;
    margin-bottom:60px;
-    height: 340px;
+    height: 300px;
     transition:0.5s;
     width:360px;
   align-items: flex-start;
@@ -301,8 +302,18 @@ position: relative;
 
 
 @media (max-width:400px){
+
+      
+    .committee-page{
+      
+        width:100%;
+        min-height:450vh;
+        overflow:hidden;
+        margin:0;
+    }
    .container{
-    margin-top:-180vh;
+    
+    margin-top:-230vh;
    }
     .container .card{
         width:330px;
@@ -315,4 +326,38 @@ position: relative;
         margin:0;
     }
    
+}
+
+@media (max-width:380px){
+
+    .committee-page{
+      
+        width:100%;
+       
+        overflow:hidden !important;
+        margin:0;
+    }
+    .container{
+        margin-top:-230vh;
+       }
+
+       .container .card{
+        width:310px;
+        height: 220px;
+    }
+
+    .container .card .image{
+        height:200px;
+        width:210px;
+    }
+
+    .container .card:hover .image{
+        height:250px;
+        width:250px;
+        margin-top:10px;
+    }
+
+    .container .card:hover{
+        height:500px;
+    }
 }
