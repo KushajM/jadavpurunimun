@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './Bigcmt.css';
 
 const Bigcmt = () => {
-    const [itemActive, setItemActive] = useState(-1);
+  const [itemActive, setItemActive] = useState(-1);
+  
+
+
   const countItem = 8;
 
   const nextClick = () => {
@@ -14,9 +17,38 @@ const Bigcmt = () => {
   };
 
   useEffect(() => {
-   
-    nextClick();
-  }, []);
+
+    const currentUrl = window.location.href;
+    let  hashValue = new URL(currentUrl).hash.substring(1);
+    // console.log(hashValue);
+    // console.log(currentUrl);
+
+
+    if (hashValue === "LOKSABHA") {
+      hashValue = "LOK SABHA";
+    }
+
+    if (hashValue === "UNGADISEC") {
+      hashValue = "UNGA DISEC";
+    }
+    if (hashValue) {
+      
+      
+      const index = thumbnails.findIndex(thumbnail => thumbnail.title === hashValue);
+
+      if (index !== -1) {
+        
+        showSlider(index);
+      } else {
+        
+        nextClick();
+      }
+    } else {
+     
+      nextClick();
+    }
+  }, []); // The dependency 
+  
 
   const showSlider = (index) => {
     setItemActive(index);
@@ -24,7 +56,6 @@ const Bigcmt = () => {
   
   };
  
-
   useEffect(() => {
     const scrollLimit = 1;
 

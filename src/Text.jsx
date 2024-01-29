@@ -53,15 +53,15 @@ const Text = ({ text, index }) => {
             <span className="third-span" >19-21st APRIL, 2024</span>
             
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
-              <button class="btn"  onClick={openForm} >
-              <div class="btn__bg">
-                <span class="btn__bg__layer btn__bg__layer-first"></span>
-                <span class="btn__bg__layer btn__bg__layer-second"></span>
-                <span class="btn__bg__layer btn__bg__layer-third"></span>
+              <button className="btn"  onClick={openForm} >
+              <div className="btn__bg">
+                <span className="btn__bg__layer btn__bg__layer-first"></span>
+                <span className="btn__bg__layer btn__bg__layer-second"></span>
+                <span className="btn__bg__layer btn__bg__layer-third"></span>
               </div>
 
-              <span class="btn__text-out">REGISTER AS EB</span>
-              <span class="btn__text-in">REGISTER AS EB</span>
+              <span className="btn__text-out">REGISTER AS EB</span>
+              <span className="btn__text-in">REGISTER AS EB</span>
             </button>
            
 

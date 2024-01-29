@@ -31,17 +31,18 @@ const Cmt = () => {
             <br />
             International Security 
             Committee</p>
-            <a href="/bigcmt"  className="agenda">
+            <a href="/bigcmt#UNGADISEC"  className="agenda">
         Agenda
       </a>
         </div>
         <img src="../DISEC.png" className="image" draggable="false"  />
       </div>
+
       <div className="card" >
         <div className="content">
           <h2>UNCSW</h2>
           <p>Commission on Status of <br /> Women</p>
-          <a href="/bigcmt" className="agenda">
+          <a href="/bigcmt#UNCSW" className="agenda">
         Agenda
       </a>
         </div>
@@ -51,7 +52,7 @@ const Cmt = () => {
         <div className="content">
           <h2>LOK SABHA</h2>
           <p>Lok Sabha</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt#LOKSABHA"  className="agenda">
         Agenda
       </a>
         </div>
@@ -62,7 +63,7 @@ const Cmt = () => {
         <div className="content">
           <h2>VPC</h2>
           <p>Viceroy's Partition Council</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt#VPC"  className="agenda">
         Agenda
       </a>
         </div>
@@ -74,7 +75,7 @@ const Cmt = () => {
           <h2>UNHCR</h2>
           <p>United Nations High 
             <br />Commissioner of Refugee</p>
-            <a href="/bigcmt"  className="agenda">
+            <a href="/bigcmt#UNHCR"  className="agenda">
         Agenda
       </a>
         </div>
@@ -86,7 +87,7 @@ const Cmt = () => {
         <div className="content">
           <h2>UNODC</h2>
           <p>United Nations Office on Drugs and Crime</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt#UNODC"  className="agenda">
         Agenda
       </a>
         </div>
@@ -97,7 +98,7 @@ const Cmt = () => {
         <div className="content">
           <h2>UNICEF</h2>
           <p>United Nations Children's Fund</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt#UNICEF"  className="agenda">
         Agenda
       </a>
         </div>
@@ -107,7 +108,7 @@ const Cmt = () => {
         <div className="content">
           <h2>IP</h2>
           <p>International Press</p>
-          <a href="/bigcmt"  className="agenda">
+          <a href="/bigcmt#IP"  className="agenda">
         Agenda
       </a>
         </div>

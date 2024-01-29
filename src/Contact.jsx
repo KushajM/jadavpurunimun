@@ -126,15 +126,15 @@ const Contact = () => {
           </div>
 
           <div className="inputGroup fullWidth">
-          <button class="btn">
-              <div class="btn__bg">
-                <span class="btn__bg__layer btn__bg__layer-first"></span>
-                <span class="btn__bg__layer btn__bg__layer-second"></span>
-                <span class="btn__bg__layer btn__bg__layer-third"></span>
+          <button className="btn">
+              <div className="btn__bg">
+                <span className="btn__bg__layer btn__bg__layer-first"></span>
+                <span className="btn__bg__layer btn__bg__layer-second"></span>
+                <span className="btn__bg__layer btn__bg__layer-third"></span>
               </div>
 
-              <span class="btn__text-out" style={{fontSize:"1.36em"}}>SUBMIT</span>
-              <span class="btn__text-in" style={{fontSize:"1.32em"}}>SUBMIT</span>
+              <span className="btn__text-out" style={{fontSize:"1.36em"}}>SUBMIT</span>
+              <span className="btn__text-in" style={{fontSize:"1.32em"}}>SUBMIT</span>
             </button>
           </div>
         </form>
