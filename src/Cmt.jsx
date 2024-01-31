@@ -20,7 +20,7 @@ const Cmt = () => {
     
     <div className="committee-page" id="committees">
       
-        <h1 data-aos="fade-up">COMMITTEES</h1>
+        <h1 data-aos="fade-in">COMMITTEES</h1>
        
     <div className="container" data-mouse-down-at="0" data-prev-percentage="0" id="image-track" >
         

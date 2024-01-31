@@ -262,6 +262,14 @@ textarea::-webkit-scrollbar-thumb{
 	.contact-form{
 		margin-top:450vh;
 	}
+
+	section.left .contactTitle p{
+		font-size:16px !important;
+	}
+
+	section.left .contactInfo .iconGroup .details span:nth-child(2){
+		font-size:16px !important;
+	}
 }
 
 @media(max-width:776px){
@@ -314,21 +322,22 @@ textarea::-webkit-scrollbar-thumb{
 		text-align: center;
 		font-size:18px;
 	}
+
+	section.left .details .mailid{
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:319px;
+	}
 	section.left .contactInfo{
 		
 		text-align: center;
-		
+		display: block;
+		align-items: center;
+		justify-content: center;
 	}
 
-	.contactInfo .iconGroup:nth-child(1){
-		
-		margin: 25px -15px;
-		width:350px;
-	}
-
-	.contactInfo .iconGroup:nth-child(2){
-		margin: 25px -30px;
-	}
 	
 	section.left .socialMedia{
 	
