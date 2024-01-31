@@ -165,7 +165,7 @@ border-radius:10px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top:160px;
+    margin-top:100px;
     background: linear-gradient(to right,#bb237e 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
     -webkit-background-clip: text;
     background-clip: text;
