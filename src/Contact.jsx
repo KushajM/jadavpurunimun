@@ -80,15 +80,15 @@ const Contact = () => {
           <div className="iconGroup">
            
             <div className="details">
-              <span>Phone</span>
-              <span>+91 82354 704060 (Secretary General) <br /> +91 98540 05015 (Director General) <br />+91 75959 03202 (Director General) </span>
+              <span className="phonetext">Phone</span>
+              <span className="phonenos">+91 82354 704060 (Secretary General) <br /> +91 98540 05015 (Director General) <br />+91 75959 03202 (Director General) </span>
             </div>
           </div>
 
           <div className="iconGroup">
             
             <div className="details">
-              <span>Email</span>
+              <span className="emailtext">Email</span>
               <span className="mailid">jadavpuruniversitymun2024@gmail.com</span>
             </div>
           </div>

@@ -330,6 +330,21 @@ textarea::-webkit-scrollbar-thumb{
 		justify-content: center;
 		width:319px;
 	}
+	section.left .details .phonetext{
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:319px;
+	}
+
+	section.left .details .phonenos{
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width:319px;
+	}
 	section.left .contactInfo{
 		
 		text-align: center;
