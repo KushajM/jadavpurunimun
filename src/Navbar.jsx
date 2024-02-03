@@ -8,11 +8,8 @@ const Navbar = () => {
     const [open,setOpen] = useState(false)
     console.log(open)
 
-    useEffect(() => {
-        setOpen(prevOpen => !prevOpen);
-      }, []);
+   
 
-            
     const variants = {
         open:{
             clipPath:"circle(1200px at 50px 50px)",
