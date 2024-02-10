@@ -81,7 +81,7 @@ const Contact = () => {
            
             <div className="details">
               <span className="phonetext">Phone</span>
-              <span className="phonenos">+91 82354 704060 (Secretary General) <br /> +91 98540 05015 (Director General) <br />+91 75959 03202 (Director General) </span>
+              <span className="phonenos">+91 82354 70406 (Secretary General) <br /> +91 98540 05015 (Director General) <br />+91 75959 03202 (Director General) </span>
             </div>
           </div>
 
