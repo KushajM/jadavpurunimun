@@ -31,7 +31,7 @@ const Text = ({ text, index }) => {
   
 
   const openForm = () => {
-    const formUrl = 'https://forms.gle/ZKTvmKqfqzqYHNQ76';
+    const formUrl = 'https://www.sconto.ai/events';
     window.open(formUrl, '_blank');
   };
 
@@ -60,8 +60,8 @@ const Text = ({ text, index }) => {
                 <span className="btn__bg__layer btn__bg__layer-third"></span>
               </div>
 
-              <span className="btn__text-out">REGISTER AS EB</span>
-              <span className="btn__text-in">REGISTER AS EB</span>
+              <span className="btn__text-out">REGISTER AS DELEGATE</span>
+              <span className="btn__text-in">REGISTER AS DELEGATE</span>
             </button>
            
 
