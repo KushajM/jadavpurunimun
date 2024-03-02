@@ -39,6 +39,11 @@ const Text = ({ text, index }) => {
     const formUrl = 'https://forms.gle/kHQMaH3ZKCYFoarGA';
     window.open(formUrl, '_blank');
   };
+
+  const openSheet = () => {
+    const formUrl = 'https://docs.google.com/spreadsheets/d/1jxrJ-QWJcVAysJjE1mUDmGM2QVaHNJoJ6gmFQ_DD1bw/edit?usp=sharing';
+    window.open(formUrl, '_blank');
+  };
   return (
     <div className="mega-img-container">
       {index === 0 && (
@@ -65,7 +70,7 @@ const Text = ({ text, index }) => {
             </button>
            
 
-            <span className="cmt-guesser"><a href="" onClick={openFormQuiz} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Not sure what committee to register for? Take this quiz to find out!</a></span>
+            <span className="cmt-guesser"><a href="" onClick={openSheet} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Allotment matrix post round 1 is over! Click to view</a></span>
           </div>
 
           
