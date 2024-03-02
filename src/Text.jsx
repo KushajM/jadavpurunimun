@@ -70,7 +70,7 @@ const Text = ({ text, index }) => {
             </button>
            
 
-            <span className="cmt-guesser"><a href="" onClick={openSheet} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Allotment matrix post round 1 is over! Click to view</a></span>
+            <span className="cmt-guesser"><a href="" onClick={openSheet} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Click here to view allotment matrix</a></span>
           </div>
 
           
