@@ -31,7 +31,7 @@ const Text = ({ text, index }) => {
   
 
   const openForm = () => {
-    const formUrl = 'https://www.sconto.ai/events';
+    const formUrl = 'https://forms.gle/QSvwZCY7o4WiWj898';
     window.open(formUrl, '_blank');
   };
 
