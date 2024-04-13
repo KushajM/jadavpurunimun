@@ -68,7 +68,7 @@ const Scroll = () => {
       <img src="../AustralianConsulate.jpg" alt="" />
     </div>
   
-    <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"160px"}}>Past partners</h1>
+    <h1 className="heading1" data-aos="fade-up" style={{marginBottom:"30px",marginTop:"160px"}}>Our partners</h1>
   
 <div className="scroller" data-direction="right" data-speed="fast" >
   <div className="scroller__inner">
@@ -78,6 +78,8 @@ const Scroll = () => {
     <img src="../FriendsFM.jpg" alt=""  />
     <img src="../IMS.png" alt="" />
     <img src="../Sporjo.png" alt="" />
+    <img src="../cocacola.jpg" alt="" />
+    <img src="../iab.jpg" alt="" />
   </div>
 </div>
 
@@ -90,7 +92,12 @@ const Scroll = () => {
       <img src="../Kwikpic.jpg" alt=""  />
       <img src="../BBA.jpg" alt=""   />
       <img src="../VaniInstitute.png" alt="" />
+      <img src="../vikramshila.jpg" alt=""  />
+      <img src="../scoverseasconsultancy.jpg" alt=""  />
+      <img src="../time.jpg" alt=""  />
      <img src="../Educrat.png" alt="" />
+      
+     
     </div>
   </div>
 
