@@ -16,13 +16,21 @@ import Scroller from "./Scroller.jsx"
 import Footer from "./Footer.jsx"
 import Navbar from "./Navbar.jsx"
 import Blog from "./Blog.jsx"
+import "./montserrat.css"
 
+console.warn = () => {};
 function App() {
   const [count, setCount] = useState(0)
   const [initialLoad, setInitialLoad] = useState(true);
 
   useEffect(() => {
+    console.log("%cMade by KushajM",
+  'background: linear-gradient(to right, #b24592, #f80759);padding:1rem;color:white;border-radius:.5em;font-size:20px;'
+  
+);
     document.title = 'JUMUN 2024';
+    console.warn = () => {};
+    
   }, []);
 
   const isHomeRoute = location.pathname === '/';

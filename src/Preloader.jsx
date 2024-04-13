@@ -9,7 +9,7 @@ const Preloader = () => {
   
   useEffect(()=>{
     preLoaderAnim()
-
+    console.warn = () => {};
   },[]);
 
   
