@@ -44,6 +44,11 @@ const Text = ({ text, index }) => {
     const formUrl = 'https://docs.google.com/spreadsheets/d/1jxrJ-QWJcVAysJjE1mUDmGM2QVaHNJoJ6gmFQ_DD1bw/edit?usp=sharing';
     window.open(formUrl, '_blank');
   };
+
+  const openResources = () => {
+    const formUrl = 'https://drive.google.com/drive/u/2/folders/1iuaJQKz-jthLZTgB3H1dBy03oG6AsjVn';
+    window.open(formUrl, '_blank');
+  };
   return (
     <div className="mega-img-container">
       {index === 0 && (
@@ -70,7 +75,7 @@ const Text = ({ text, index }) => {
             </button>
            
 
-            <span className="cmt-guesser"><a href="" onClick={openSheet} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Click here to view allotment matrix</a></span>
+            <span className="cmt-guesser"><a href="" onClick={openResources} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Click here to view study guides</a></span>
           </div>
 
           
