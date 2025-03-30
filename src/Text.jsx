@@ -31,7 +31,7 @@ const Text = ({ text, index }) => {
   
 
   const openForm = () => {
-    const formUrl = 'https://forms.gle/QSvwZCY7o4WiWj898';
+    const formUrl = 'https://forms.gle/5FH1bYu1sBGiqVVo6';
     window.open(formUrl, '_blank');
   };
 

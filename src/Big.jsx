@@ -156,8 +156,8 @@ const Big = () => {
           <div className="about-us-image">
             <img
               src="../jumunabout2.jpg"
-              width="808"
-              height="458"
+              // width="808"
+              // height="458"
               alt="Lobby Image"
             />
           </div>
