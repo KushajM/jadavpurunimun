@@ -23,7 +23,7 @@ const Preloader = () => {
           
             <span>#Chaos</span>
             <span>To</span>
-            <span>Concensus</span>
+            <span>Consensus</span>
           </div>
       </div>
    
