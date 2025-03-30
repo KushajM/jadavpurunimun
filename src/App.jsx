@@ -27,6 +27,13 @@ function App() {
   });
 
   useEffect(() => {
+
+    console.log("%cMade by KushajM",
+      'background: linear-gradient(to right,rgb(5, 67, 174),rgb(8, 185, 255));padding:1rem;color:white;border-radius:.5em;font-size:20px;'
+      
+    );
+
+    
     if (showPreloader) {
       const timer = setTimeout(() => {
         setShowPreloader(false);
