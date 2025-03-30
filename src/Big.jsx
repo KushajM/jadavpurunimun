@@ -140,12 +140,18 @@ const Big = () => {
   
   // </div>
   useEffect(() => {
-    // Disable scrolling
-    document.body.style.overflow = "hidden";
-    
+    const scrollLimit = 0;
+
+    const handleScroll = () => {
+      if (document.documentElement.scrollTop > scrollLimit) {
+        document.documentElement.scrollTop = scrollLimit;
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll);
+
     return () => {
-      // Re-enable scrolling when leaving the page
-      document.body.style.overflow = "auto";
+      document.removeEventListener('scroll', handleScroll);
     };
   }, []);
  
