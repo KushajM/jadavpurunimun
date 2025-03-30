@@ -61,20 +61,15 @@ const Bigcmt = () => {
   };
  
   useEffect(() => {
-    const scrollLimit =0;
+     // Disable scrolling
+     document.body.style.overflow = "hidden";
+    
+     return () => {
+       // Re-enable scrolling when leaving the page
+       document.body.style.overflow = "auto";
+     };
+   }, []);
 
-    const handleScroll = () => {
-      if (document.documentElement.scrollTop > scrollLimit) {
-        document.documentElement.scrollTop = scrollLimit;
-      }
-    };
-
-    document.addEventListener('scroll', handleScroll);
-
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
 
   const items = [
