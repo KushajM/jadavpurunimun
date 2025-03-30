@@ -61,7 +61,7 @@ const Bigcmt = () => {
   };
  
   useEffect(() => {
-    const scrollLimit = 0;
+    const scrollLimit = 1;
 
     const handleScroll = () => {
       if (document.documentElement.scrollTop > scrollLimit) {
