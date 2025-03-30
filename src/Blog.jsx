@@ -3,19 +3,13 @@ import "./blog.css"
 
 const Blog = () => {
 
-    useEffect(() => {
-        const scrollLimit = 1;
-    
-        const handleScroll = () => {
-          if (document.documentElement.scrollTop > scrollLimit) {
-            document.documentElement.scrollTop = scrollLimit;
-          }
-        };
-    
-        document.addEventListener('scroll', handleScroll);
+  useEffect(() => {
+        // Disable scrolling
+        document.body.style.overflow = "hidden";
     
         return () => {
-          document.removeEventListener('scroll', handleScroll);
+          // Re-enable scrolling when leaving the page
+          document.body.style.overflow = "auto";
         };
       }, []);
 
@@ -30,3 +24,36 @@ const Blog = () => {
 }
 
 export default Blog
+
+// import React, { useEffect } from 'react';
+// import "./blog.css";
+
+// const Blog = () => {
+//   useEffect(() => {
+//     // Disable scrolling
+//     document.body.style.overflow = "hidden";
+
+//     return () => {
+//       // Re-enable scrolling when leaving the page
+//       document.body.style.overflow = "auto";
+//     };
+//   }, []);
+
+//   return (
+//     <div className="blog-container">
+//       <div className="instagram-embed">
+//         <iframe
+//           src="https://www.instagram.com/judebatingsociety/embed"
+//           width="600"
+//           height="800"
+//           frameBorder="0"
+//           scrolling="no"
+//           // allowTransparency="true"
+//           allow="encrypted-media"
+//         ></iframe>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Blog;

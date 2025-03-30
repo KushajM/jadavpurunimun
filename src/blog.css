@@ -5,10 +5,9 @@
     background: radial-gradient( #071b42, #000921);
     width:100%;
     scroll-behavior: none;
+    overflow:none;
 
 }
-
-
 
 .blog-container h1{
 
@@ -28,7 +27,7 @@
     filter:brightness(150%);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+  -webkit-text-fill-color: transparent; 
 }
 @media (max-width:776px){
 
@@ -42,3 +41,52 @@
         overflow-x: hidden;
     }
 }
+
+/* .blog-container {
+    height: 100vh;
+    margin-top: -100vh;
+    position: absolute;
+    background: radial-gradient(#071b42, #000921);
+    width: 100%;
+    margin-top:-100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;  /* Prevents unwanted scrolling */
+    /* padding: 20px; 
+}
+
+.instagram-embed {
+    width: 600px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.instagram-embed iframe{
+    border: 10px; 
+}
+
+@media (max-width: 768px) {
+    .blog-container {
+        max-width:92%;
+        overflow-x: hidden; 
+    }
+
+    .instagram-embed {
+        width: 90vw;
+        height:50vh;
+    }
+
+    .instagram-embed iframe {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height:50vh;
+    }
+} */
