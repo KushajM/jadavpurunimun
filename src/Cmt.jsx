@@ -72,7 +72,7 @@ const Cmt = () => {
      
       <div className="card">
         <div className="content">
-          <h2>UNHCR</h2>
+          <h2>UNHRC</h2>
           <p>United Nations  
             <br />Human Rights Council (Online)</p>
             <a href="/bigcmt#UNHRC"  className="agenda">
