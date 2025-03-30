@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust as needed */
-    background-color: #F8E8DA; /* Transparent white background */
+    /* background-color: #F7F9FC; Transparent white background */
+    background: radial-gradient(  #f2fbff, #e8f4ff);
     overflow-x: hidden;
   
   }
@@ -40,7 +41,8 @@
   }
   
   .text-container h1{
-    background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+    /* background: linear-gradient(to right,#bb237e ,#DC9924 ); Your blue and yellow gradient */
+    background: radial-gradient( #155de2, #010e32);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -56,6 +58,7 @@
     width: 140%;
     text-align:center;
     font-size:25px;
+    color: #0B1C45;
   }
   .image-container {
     flex: 1;
@@ -121,7 +124,8 @@
   left:74%;
 
   position:relative;
-  background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+  /* background: linear-gradient(to right,#bb237e ,#DC9924 ); Your blue and yellow gradient */
+  background: linear-gradient( #0548c5, #02113b);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
@@ -182,7 +186,7 @@
 
   .text-container h1{
     all:unset;
-    background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+    background: radial-gradient( #155de2, #010e32);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

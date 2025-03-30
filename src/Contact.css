@@ -7,7 +7,8 @@
 .contact-form{
 	width: 100%;
 	min-height: 100vh;
-	background-color: #F8E8DA;
+	/* background-color: #F8E8DA; */
+	background: radial-gradient(  #f2fbff, #e8f4ff);
 	position: absolute;
 	margin-top:100vh;
 
@@ -53,7 +54,8 @@ section.left .contactTitle h2{
 	
 	display: inline-block;
 	margin-bottom: 45px;
-	background: linear-gradient(to right,#dd3399 ,#DC9924 ); /* Your blue and yellow gradient */
+	/* background: linear-gradient(to right,#dd3399 ,#DC9924 ); Your blue and yellow gradient */
+	background: radial-gradient( #0142b9, #010e32);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
@@ -72,7 +74,7 @@ section.left .contactTitle h2::after{
 	position: absolute;
 	width: 25%;
 	height: 3px;
-	background: linear-gradient(to right,#dd3399 ,#DC9924 ); 
+	background: linear-gradient(to right,#021eaa ,#67b8ff ); 
 	top: calc(120% - 1px);
 	left: 0;
 }
@@ -118,7 +120,7 @@ section.left .contactInfo{
 }
 .iconGroup .details span:nth-child(1){
 	text-transform: uppercase;
-	background: linear-gradient(to right,#E17125 ,#eb3642 ); /* Your blue and yellow gradient */
+	background: linear-gradient(to right,#0d15af ,#3675eb ); /* Your blue and yellow gradient */
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
@@ -185,10 +187,10 @@ section.left .socialMedia{
 	width: 100%;
 	font-size: 18px;
 	padding: 2px 0px;
-	background-color: #e9caca;
+	background-color: #cad9e9;
 	color: #080808;
 	border: none;
-	border: 1px solid #e4d7d7;
+	border: 1px solid #d7dee4;
     border-radius:10px;
 	outline: none;
 	text-align: center;
@@ -199,10 +201,10 @@ section.left .socialMedia{
 	width: 100%;
 	font-size: 18px;
 	padding: 5px 0px;
-	background-color: #e9caca;
+	background-color: #cad9e9;
 	color: #080808;
 	border: none;
-	border: 1px solid #e4d7d7;
+	border: 1px solid #d7dee4;
     border-radius:14px;
 	outline: none;
 	height:30px;
@@ -274,7 +276,7 @@ textarea::-webkit-scrollbar-thumb{
 
 @media(max-width:776px){
 	.contact-form{
-		margin-top:400vh;
+		margin-top:409vh;
 	}
 	.contact-container{
 		max-width:98%;

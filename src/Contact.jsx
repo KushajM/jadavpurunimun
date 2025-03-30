@@ -26,10 +26,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_yzah8x4",
-        "template_7msa69t",
+        "service_9i8t0yi",
+        "template_ga96oin",
         form.current,
-        "9Fe9BK0IEQ0RBOEHb"
+        // "9Fe9BK0IEQ0RBOEHb"
+        "KNjYt70GEJa1P8YPU"
       )
       .then(
         (result) => {
@@ -41,9 +42,9 @@ const Contact = () => {
             title: "Message submitted!",
             showConfirmButton: false,
             timer: 1500,
-            color:"#FAEEE3",
-            background:"#5C012E",
-            iconColor: '#FAEEE3',
+            color:"#e3f2fa",
+            background:"#0a0463",
+            iconColor: '#e3f2fa',
            
           });
           form.current.reset();
@@ -81,7 +82,7 @@ const Contact = () => {
            
             <div className="details">
               <span className="phonetext">Phone</span>
-              <span className="phonenos">+91 82354 70406 (Secretary General) <br /> +91 98540 05015 (Director General) <br />+91 75959 03202 (Director General) </span>
+              <span className="phonenos">+91 85828 42124 (Secretary General) <br /> +91 82740 52513 (Director General)</span>
             </div>
           </div>
 
@@ -89,7 +90,7 @@ const Contact = () => {
             
             <div className="details">
               <span className="emailtext">Email</span>
-              <span className="mailid">jadavpuruniversitymun2024@gmail.com</span>
+              <span className="mailid">jadavpuruniversitymun2025@gmail.com</span>
             </div>
           </div>
 
@@ -99,8 +100,8 @@ const Contact = () => {
 
         {/* Social Media Starts */}
         <div className="socialMedia">
-          <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"36px",alignItems:"center",color:"#660D39"}}/></a>
-          <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"36px",alignItems:"center",color:"#660D39",marginLeft:"20px"}}/></a>
+          <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"36px",alignItems:"center",color:"#012C81"}}/></a>
+          <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"36px",alignItems:"center",color:"#012C81",marginLeft:"20px"}}/></a>
         </div>
         {/* Social Media Ends */}
       </section>

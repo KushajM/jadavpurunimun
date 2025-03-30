@@ -1,9 +1,9 @@
 :root {
-    --color-main-second: #C23B6C;
-    --color-main: #D69C28;
-    --color-main-third: #9c0362;
-    --color-main-gradient: linear-gradient(#C23B6C,#D69C28,#A42A3D);
-    --color-main-prev:#8d0f50;
+    --color-main-second: #b2eaf8;
+    --color-main: #347ef4;
+    --color-main-third: #266ad1;
+    --color-main-gradient: linear-gradient(#5dc23b,#D69C28,#A42A3D);
+    --color-main-prev:#244b9f;
   }
 .btn {
     display: inline-block;
@@ -78,7 +78,7 @@
       background-color: var(--color-main-prev);
       border-radius: 50px;
       overflow: hidden;
-      border:1px solid rgb(206, 10, 10);;
+      border:1px solid #2A456E;
   
       &__layer {
         position: absolute;

@@ -28,7 +28,7 @@ function App() {
   'background: linear-gradient(to right, #b24592, #f80759);padding:1rem;color:white;border-radius:.5em;font-size:20px;'
   
 );
-    document.title = 'JUMUN 2024';
+    document.title = 'JUMUN 2025';
     console.warn = () => {};
     
   }, []);

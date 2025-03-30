@@ -191,28 +191,34 @@
    align-items: center;
 }
 .index_1_link{
-    background: linear-gradient(to right,#c52f89 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+    /* background: linear-gradient(to right,#c52f89 30% ,#DC9924, #eb3642 ); Your blue and yellow gradient */
+    background: linear-gradient(to right, #2557b3 40%, #215591, #539AD3);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor:pointer; 
+    filter:brightness(140%);
 }
 
 .index_3_link{
-  background: linear-gradient(to right,#ff65c1 30% ,#ffbf52, #eb3642 ); /* Your blue and yellow gradient */
+  /* background: linear-gradient(to right,#ff65c1 30% ,#ffbf52, #eb3642 ); Your blue and yellow gradient */
+  background: linear-gradient(to right, #112e64 28%,rgb(28, 77, 133), #044881);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: brightness(200%);
 }
 a {
     text-decoration:none;
 }
 
 .index_4_link{
-    background: linear-gradient(to right,#c52f89 10% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+    /* background: linear-gradient(to right,#c52f89 10% ,#DC9924, #eb3642 ); Your blue and yellow gradient */
+    background: linear-gradient(to right, #0e4bbe 20%, #0e68cf, #67d4ff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: brightness(100%);
 }
 
 .regular{
@@ -224,7 +230,7 @@ a {
         position:absolute;
         font-weight: bold;
         font-size:2em;
-        background: linear-gradient(to right, #c52f89,#eb3642   ); /* Your blue and yellow gradient */
+        background: linear-gradient(135deg, #3c70ff 20%, #013ad8, #1B3D9A, #4a80fd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -232,6 +238,7 @@ a {
         top:-20px;
         left:250px;
         font-family: Georgia,Times,Times New Roman,serif; 
+       
     }
 
     &::after{
@@ -239,13 +246,14 @@ a {
         position:absolute;
         font-weight: bold;
         font-size:2em;
-        background: linear-gradient(to right, #c52f89,#eb3642   ); /* Your blue and yellow gradient */
+        background: linear-gradient(135deg, #3c70ff 20%, #013ad8, #1B3D9A, #4a80fd);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         bottom:-40px;
         right:250px;
         font-family: Georgia,Times,Times New Roman,serif; 
+        
         
     }
 }
@@ -257,7 +265,7 @@ a {
      font-family: "Montserrat";
     text-align: center;
     width:1000px;
-    color:#F8E8DA;
+    color:#ebf6f6;
 }
 
 .second-span{
@@ -265,7 +273,7 @@ a {
     font-family: "Montserrat";
     text-align: center; 
     margin-bottom: 20px;
-    color:#F8E8DA;
+    color:#ebf6f6;
 }
 
 .third-span{
@@ -273,7 +281,7 @@ a {
   font-size:23px;
   font-family:"Montserrat";
  margin-bottom:60px;
-  color:#F8E8DA;
+  color:#ebf6f6;
 
   
 }
@@ -290,7 +298,7 @@ a {
      font-family: "Montserrat";
     text-align: center;
     width:1000px;
-    color:#F8E8DA;
+    color:#ebf6f6;
 }
 .cmt-guesser{
   font-family:"Montserrat";
@@ -299,7 +307,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  color:#ebf6f6;
   bottom:0;
   margin-bottom:-50px;
 
@@ -336,7 +344,7 @@ a {
   font-family: "Montserrat";
  text-align: center;
  width:1000px;
- color:#F8E8DA;
+ color:#ebf6f6;
 }
 
 /* Add this to your CSS file */

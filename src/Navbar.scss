@@ -10,6 +10,7 @@
     padding: 10px; /* Adjust as needed */
     z-index: 3; /* Make sure the container is above the Sidebar */
     font-family:"Montserrat";
+    
 
   }
   
@@ -37,7 +38,7 @@
       left: 0;
       bottom: 0;
       width: 400px;
-      background: linear-gradient(to right,#F8E8DA,#faddc4);
+      background: linear-gradient(to right,#daf2f8,#c4e1fa);
   
       .links {
         position: absolute;
@@ -51,7 +52,7 @@
   
         a {
           font-size: 40px;
-          color:#8D0F50;
+          color: #032d7b;
         }
         a:visited{
             text-decoration: none; 

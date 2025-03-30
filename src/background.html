@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background and Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('background-3.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* overflow-y:hidden;   */
+            scrollbar-width: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+          
+        }
+
+        .logo {
+            width: 2600px; /* 50% of the viewport width */
+            /* max-width: 600px; Limit max size */
+            height: auto; /* Maintain aspect ratio */
+            opacity: 0.4; /* Default opacity */
+            transition: opacity 0.3s ease-in-out;   
+            /* top:50%; */
+            /* left:50%; */
+            transform:translate(0%,10%);
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="IP_BG.jpg" alt="Logo" class="logo">
+    </div>
+</body>
+</html>

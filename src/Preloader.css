@@ -3,7 +3,7 @@
 .preloader {
   height: 100vh;
   width: 100%;
-  background: 	#F8E8DA;
+  background: radial-gradient(  #f2fbff, #e8f4ff);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -29,14 +29,14 @@
 }
 
 .preloader .texts-container span:nth-child(1) {
-  background: linear-gradient(to right,#bb237e ,#DC9924 ); /* Your blue and yellow gradient */
+  background: linear-gradient(to right, #033a9f 40%, #003b7f);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
 }
 
 .preloader .texts-container span:nth-child(2) {
-  background: linear-gradient(to right,#DC9924 ,#E17125 ); /* Your blue and yellow gradient */
+  background: linear-gradient(to right, #034087, #053f95);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
@@ -44,7 +44,7 @@
 
 
 .preloader .texts-container span:nth-child(3) {
-  background: linear-gradient(to right,#E17125 ,#eb3642 ); /* Your blue and yellow gradient */
+  background: linear-gradient(to right, #06439e 20%, #4c91c9);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */

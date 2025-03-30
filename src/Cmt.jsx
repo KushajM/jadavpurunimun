@@ -35,7 +35,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../DISEC.png" className="image" draggable="false"  />
+        <img src="../UNGA_FINAL.png" className="image" draggable="false"  />
       </div>
 
       <div className="card" >
@@ -46,7 +46,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../UNW.png" className="image" draggable="false" />
+        <img src="../UNCSW_FINAL.png" className="image" draggable="false" />
       </div>
       <div className="card"  >
         <div className="content">
@@ -56,53 +56,54 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../LOKSABHA.png" className="image" draggable="false" />
+        <img src="../LOKSABHA_FINAL.png" className="image" draggable="false" />
       </div>
       
         <div className="card"  >
         <div className="content">
-          <h2>VPC</h2>
-          <p>Viceroy's Partition Council</p>
-          <a href="/bigcmt#VPC"  className="agenda">
+          <h2>WHA</h2>
+          <p>World Health Assembly</p>
+          <a href="/bigcmt#WHA"  className="agenda">
         Agenda
       </a>
         </div>
-        <img src="../VPC.png" className="image" draggable="false" />
+        <img src="../WHA_FINAL.png" className="image" draggable="false" />
       </div>
      
       <div className="card">
         <div className="content">
           <h2>UNHCR</h2>
-          <p>United Nations High 
-            <br />Commissioner of Refugee</p>
-            <a href="/bigcmt#UNHCR"  className="agenda">
+          <p>United Nations  
+            <br />Human Rights Council (Online)</p>
+            <a href="/bigcmt#UNHRC"  className="agenda">
         Agenda
       </a>
         </div>
-        <img src="../HCR.png" className="image" draggable="false" />
+        <img src="../UNHRC_FINAL.png" className="image" draggable="false" />
       </div>
      
 
       <div className="card" >
         <div className="content">
-          <h2>UNODC</h2>
-          <p>United Nations Office on Drugs and Crime</p>
-          <a href="/bigcmt#UNODC"  className="agenda">
+          <h2>ICTY</h2>
+          <p>International Criminal Tribunal 
+            <br />for Yugoslavia</p>
+          <a href="/bigcmt#ICTY"  className="agenda">
         Agenda
       </a>
         </div>
-        <img src="../odc2.png" className="image" draggable="false" />
+        <img src="../ICTY_FINAL.png" className="image" draggable="false" />
       </div>
 
       <div className="card" >
         <div className="content">
-          <h2>UNICEF</h2>
-          <p>United Nations Children's Fund</p>
-          <a href="/bigcmt#UNICEF"  className="agenda">
+          <h2>COP 30</h2>
+          <p></p>
+          <a href="/bigcmt#COP30"  className="agenda">
         Agenda
       </a>
         </div>
-        <img src="../unicef2.png" className="image" draggable="false" />
+        <img src="../COP30_FINAL.png" className="image" draggable="false" />
       </div>
       <div className="card" >
         <div className="content">
@@ -112,7 +113,7 @@ const Cmt = () => {
         Agenda
       </a>
         </div>
-        <img src="../IP.png" className="image" draggable="false" />
+        <img src="../IP_FINAL.png" className="image" draggable="false" />
       </div>
      
       

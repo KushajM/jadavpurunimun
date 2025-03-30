@@ -8,7 +8,8 @@ body{
         
     height: 100vh;
     width: 100%;
-    background-color: #240a1f;
+    /* background-color: #240a1f; */
+    background: radial-gradient( #0c2964, #000921);
 
     overflow-x: hidden;
     max-width: 100%;
@@ -39,10 +40,12 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin-top:140px;
-background: linear-gradient(to right,#bb237e 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+/* background: linear-gradient(to right,#bb237e 30% ,#DC9924, #eb3642 ); Your blue and yellow gradient */
+background: linear-gradient(to right, #1a2e62 30%, #306f9c, #66deff);
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;
+filter: brightness(200%);
 
 
 }
@@ -77,11 +80,108 @@ transform: translate(-50%,-50%);
 transition:0.5s;
 }
 
+.container .card:nth-child(1) .image{
+    position:absolute;
+    
+    
+    height: 300px;
+    left:50%;
+    top:50%;
+    width:300px;
+    transform: translate(-50%,-50%);
+    transition:0.5s;
+    }
+
+    .container .card:nth-child(2) .image{
+        position:absolute;
+        height: 250px;
+        left:50%;
+        top:50%;
+        width:250px;
+        transform: translate(-50%,-50%);
+        transition:0.5s;
+    }
+
+    .container .card:nth-child(4) .image{
+        position:absolute;
+        
+        
+        height: 300px;
+        left:50%;
+        top:50%;
+        width:300px;
+        transform: translate(-50%,-50%);
+        transition:0.5s;
+        }
+
+        .container .card:nth-child(7) .image{
+            position:absolute;
+            
+            
+            height: 300px;
+            left:50%;
+            top:50%;
+            width:300px;
+            transform: translate(-50%,-50%);
+            transition:0.5s;
+            }
+
 .container .card:hover .image{
 left:82%;
-height:380px;
-width: 400px;
+height:330px;
+width: 480px;
 }
+
+.container .card:nth-child(1):hover .image{
+    left:82%;
+    height:400px;
+    width: 400px;
+}
+.container .card:nth-child(2):hover .image{
+        left:82%;
+        height:330px;
+        width: 350px;
+}
+
+.container .card:nth-child(3):hover .image{
+    left:82%;
+    height:380px;
+    width: 400px;
+    }
+
+.container .card:nth-child(4):hover .image{
+    left:82%;
+    height:400px;
+    width: 400px;
+    }
+
+    .container .card:nth-child(5):hover .image{
+        left:82%;
+        height:350px;
+        width: 360px;
+        }
+
+        .container .card:nth-child(6):hover .image{
+            left:82%;
+            height:350px;
+            width: 350px;
+        }
+
+        .container .card:nth-child(7):hover .image{
+            left:82%;
+            height:400px;
+            width: 450px;
+            }
+            .container .card:nth-child(8):hover .image{
+                left:82%;
+                height:400px;
+                width: 400px;
+                }
+        
+        
+    
+
+
 
 .container .card .content{
 position: relative;
@@ -105,7 +205,7 @@ visibility: visible;
 margin-top:-20px;
 }
 .container .card .content h2{
-color:#F9EBDA;
+color:#EBF6F6;
 text-transform: uppercase;
 font-size:2.5em;
 line-height:1em;
@@ -113,14 +213,14 @@ font-family:"Montserrat";
 }
 
 .swipe-text{
-    color:#F9EBDA;
+    color:#EBF6F6;
     font-size:12px;
     margin-top:65vh;
     margin-left:45vw;
 }
 .container .card .content p{
 margin-top:-7px;
-color:#F9EBDA;
+color:#EBF6F6;
 font-family:"Montserrat";
 font-size:.9em;
 
@@ -128,7 +228,7 @@ font-size:.9em;
 .container .card .content .agenda{
 position:relative;
 color:#111;
-background:#F9EBDA;
+background:#dae5f9;
 display:inline-block;
 text-align: center;
 padding: 10px 10px;
@@ -166,7 +266,7 @@ border-radius:10px;
     justify-content: center;
     text-align: center;
     margin-top:100px;
-    background: linear-gradient(to right,#bb237e 30% ,#DC9924, #eb3642 ); /* Your blue and yellow gradient */
+    background: linear-gradient(to right, #1a2e62 30%, #306f9c, #66deff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -246,6 +346,95 @@ position: relative;
 }
 
 
+.container .card.card:nth-child(1):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(2):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(3):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(4):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(5):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(6):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(7):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+.container .card.card:nth-child(8):hover .image{
+    left:50%;
+    overflow: hidden;
+    height:300px;
+    top:74%;
+    transition:.5s;
+    width:300px;
+    
+}
+
+
+
 
 .container .card:hover .content{
     overflow: hidden;
@@ -255,7 +444,7 @@ position: relative;
     margin-top:-20px;
 }
 .container .card .content h2{
-    color:#F9EBDA;
+   color:#EBF6F6;
     text-transform: uppercase;
     font-size:2.5em;
     line-height:1em;
@@ -268,7 +457,7 @@ position: relative;
 
 .container .card .content p{
     margin-top:-30px;
-    color:#F9EBDA;
+    color:#EBF6F6;
     font-family:"Montserrat";
     font-size:.9em;
     text-align:center;
@@ -278,7 +467,7 @@ position: relative;
     
     position:relative;
     color:#111;
-    background:#F9EBDA;
+    color:#EBF6F6;
     display:inline-block;
     text-align: center;
     padding: 10px 10px;

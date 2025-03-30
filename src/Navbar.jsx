@@ -20,7 +20,8 @@ const Navbar = () => {
             position:"fixed",
             zIndex:2,
             height:"100vh",
-            
+          
+           
             
     
         },
@@ -42,10 +43,12 @@ const Navbar = () => {
 
     
       return (
-        <div className="container1 w-full">
+        <div className="container1">
       <motion.div className="sidebar z-[999]" animate={open ? "open":"closed"}>
         <motion.div className="bg" variants = {variants} >
+            
             <Links />
+            
             </motion.div>
         
         <ToggleButton  setOpen={setOpen}/>

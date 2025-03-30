@@ -59,18 +59,19 @@ position: absolute;
 
 
 .about-us-info h2 {
-  color: #F8E8DA;
+  color: #EBF6F6;
   font-size: 40pt;
   text-align: center;
-  background: linear-gradient(to right,#ff39b0 ,#DC9924 ); /* Your blue and yellow gradient */
+  background: linear-gradient(to right, #1d4288 20%, #2f77c9, #539AD3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+  filter: brightness(150%);
 }
 
 
 .about-us-info p {
-  color: #F8E8DA;
+  color: #EBF6F6;
   font-size: 15pt;
   text-align: center;
  
@@ -108,7 +109,7 @@ max-width:75%;
 
 .about-us-info h2{
   width:400px;
-  background: linear-gradient(to right,#ff39b0 ,#DC9924 ); /* Your blue and yellow gradient */
+  background: linear-gradient(to right, #1d4288 20%, #2f77c9, #539AD3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
@@ -118,7 +119,6 @@ max-width:75%;
   top:-20px;
 left:50%;
 transform: translateX(-50%);
-margin-bottom:120px;
   
 }
 
@@ -129,7 +129,7 @@ margin-bottom:120px;
   transform:translate(-50%,-50%);
   width:400px;
   font-size:15px;
-  margin-top:9vh;
+  margin-top:15vh;
 }
 }
 

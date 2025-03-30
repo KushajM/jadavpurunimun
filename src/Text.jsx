@@ -60,7 +60,7 @@ const Text = ({ text, index }) => {
           
             <span className="first-span" >JADAVPUR UNIVERSITY</span>
             <span className="second-span" >{text}</span>
-            <span className="third-span" >19-21st APRIL, 2024</span>
+            <span className="third-span" >11th-13th APRIL, 2025</span>
             
               {/* <button className="register-btn" style={{}}><h1>REGISTER</h1></button> */}
               <button className="btn"  onClick={openForm} >
@@ -75,7 +75,7 @@ const Text = ({ text, index }) => {
             </button>
            
 
-            <span className="cmt-guesser"><a href="" onClick={openResources} target="_blank" style={{textDecoration:"none",color:"#F8E8DA"}}>Click here to view study guides</a></span>
+            <span className="cmt-guesser"><a href="" onClick={openResources} target="_blank" style={{textDecoration:"none",color:"#ebf6f6"}}>Click here to view study guides</a></span>
           </div>
 
           
@@ -125,8 +125,8 @@ const Text = ({ text, index }) => {
           <span className="first-span" >{text }</span>
             <span className="second-span" style={{fontSize:"25px",marginBottom:"40px"}} >Make sure to follow us on our social media<a href="/blog" ><span className="index_3_link"></span></a></span>
             <span className="third-span">
-            <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA"}}/></a>
-          <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"50px",alignItems:"center",color:"#F8E8DA",marginLeft:"20px"}}/></a>
+            <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"50px",alignItems:"center",color:"#EBF6F6"}}/></a>
+          <a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"50px",alignItems:"center",color:"#EBF6F6",marginLeft:"20px"}}/></a>
             </span>
             
            
@@ -144,7 +144,7 @@ const Text = ({ text, index }) => {
           
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
           <span className="first-span-4" ><span className="index_4_link">Stay tuned </span>for updates</span>
-          <span className="regular" style={{ fontSize: "20px", fontFamily: "Montserrat", textAlign: "center", marginTop: "30px"}}>Apathy's a tragedy and boredom is a crime</span>
+          <span className="regular" style={{ fontSize: "20px", fontFamily: "Montserrat", textAlign: "center", marginTop: "30px", color:"#ebf6f6"}}>Apathy's a tragedy and boredom is a crime</span>
             
             
             

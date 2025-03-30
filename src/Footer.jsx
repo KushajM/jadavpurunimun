@@ -62,7 +62,7 @@ const Footer = () => {
  <footer className="footer" >
       <div className="footer-container" >
         <div className="footer-content" >
-          <div className="footer-logo" ><span>JUMUN2024</span></div>
+          <div className="footer-logo" ><span>JUMUN2025</span></div>
           <div className="footer-links">
             <ul className="footer-menu">
               <li><a href="#" onClick={(event) => scrollToTop(event)}>Home</a></li>
@@ -76,14 +76,14 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <ul className="social-icons">
-              <li> <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"30px",color:"#F8E8DA"}}/></a></li>
-              <li><a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"30px",color:"#F8E8DA",marginLeft:"20px"}}/></a></li>
+              <li> <a href="https://www.facebook.com/JUModelUnitedNations/" target="_blank"><FontAwesomeIcon icon={faFacebook} style={{width:"auto",height:"30px",color:"#EBF6F6"}}/></a></li>
+              <li><a href="https://www.instagram.com/judebatingsociety/" target="_blank"><FontAwesomeIcon icon={faInstagram} style={{width:"auto",height:"30px",color:"#EBF6F6",marginLeft:"20px"}}/></a></li>
               
             </ul>
           </div>
         </div>
         <div className="footer-bottom" >
-          <p>Made with love by JUMUN 2024 Tech Team</p>
+          <p>Made with love by JUMUN 2025 Tech Team</p>
         </div>
       </div>
     </footer>

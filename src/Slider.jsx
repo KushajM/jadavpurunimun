@@ -1,6 +1,6 @@
 
 import ImageSlider from "./ImageSlider.jsx"
-import img1 from "../img/background3.jpg"
+import img1 from "../img/backgroundblue4.png"
 import img2 from "../img/imagebg1.jpg"
 import img3 from "../img/blogbackground.jpg"
 import img4 from "../img/contactbg4.jpg"

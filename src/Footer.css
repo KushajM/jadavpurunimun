@@ -11,7 +11,7 @@
 
   width: 100%;
   font-family: 'Montserrat';
-  background-color: #240A1F;
+  background-color: #0a0c24;
   position:absolute;
  
 
@@ -21,8 +21,8 @@
   bottom: 0;
   font-size: 18px;
   width: 100%;
-  background-color: #180615;
-  color: #F8E8DA;
+  background-color: #060618;
+  color:#EBF6F6;
   padding: 30px 0;
   border-top-left-radius: 50px 40px;
 }
@@ -45,10 +45,11 @@
 }
 .footer-logo span{
     font-size:30px;
-    background: linear-gradient(to right,#f548b0 ,#DC9924 ); /* Your blue and yellow gradient */
+    background: linear-gradient(to right, #2557b3 40%, #215591, #539AD3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
+  filter: brightness(150%);
 }
 .footer-content {
   display: grid;
@@ -75,7 +76,7 @@
 }
 
 .footer-menu a {
-  color: #F8E8DA;
+  color:#EBF6F6;
   text-decoration: none;
 }
 
@@ -86,12 +87,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color:#EBF6F6;
 }
 
 
 .social-icons li {
   display: inline-block;
   margin-right: 10px;
+  color:#EBF6F6;
 }
 
 .social-icons li:last-child {
@@ -99,7 +102,7 @@
 }
 
 .social-icons a {
-  color: #F8E8DA;
+  color:#EBF6F6;
   text-decoration: none;
   font-size: 20px;
   

@@ -2,8 +2,9 @@
     height:100vh;
     margin-top:-100vh;
     position: absolute;
-    background-color: #240A1F;
+    background: radial-gradient( #071b42, #000921);
     width:100%;
+    scroll-behavior: none;
 
 }
 
@@ -11,7 +12,7 @@
 
 .blog-container h1{
 
-    color:#F8E8DA;
+    color:#daf4f8;
     font-size:56px;
     position: absolute;
     left:50%;
@@ -23,7 +24,8 @@
 }
 
 .blog-container h1 span{
-    background: linear-gradient(to right,#f82ca7 ,#DC9924 ); /* Your blue and yellow gradient */
+    background: linear-gradient(to right, #0249cc 40%, #215591, #539AD3);
+    filter:brightness(150%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; /* Add some margin between spans if needed */
