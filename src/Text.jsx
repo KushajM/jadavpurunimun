@@ -89,7 +89,7 @@ const Text = ({ text, index }) => {
           
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px"}}>
           <span className="first-span" >{text}</span>
-            <span className="second-span" >Check out <a href="#" onClick={scrollToCommittees} ><span className="index_1_link">committees</span></a> at JUMUN 2024</span>
+            <span className="second-span" >Check out <a href="#" onClick={scrollToCommittees} ><span className="index_1_link">committees</span></a> at JUMUN 2025</span>
             </div>
             
            
