@@ -55,10 +55,10 @@ function ImageSlider({ imageUrls }) {
           </div>
         ))}
       </div>
-      <button onClick={showPrevImage} className="img-slider-button" style={{ left: 0,width:"30px"}}>
+      <button onClick={showPrevImage} className="img-slider-button" style={{ left: 0}}>
         <BsChevronCompactLeft className="button-arrow-left" />
       </button>
-      <button onClick={showNextImage} className="img-slider-button" style={{ right: 0, }}>
+      <button onClick={showNextImage} className="img-slider-button" style={{ right: 0}}>
         <BsChevronCompactRight className="button-arrow-right"/>
       </button>
 

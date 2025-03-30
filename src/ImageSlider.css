@@ -17,21 +17,41 @@ body {
   
 }
 
-.img-slider-button{
-    
-    all:unset;
-    display:block;
-    position:absolute;
-    bottom:0;
-    padding: 1rem;
-    cursor:pointer;
-    transition:background-color 100ms ease-in-out;
-    z-index:1;
-    height:50px;
-    width:50px;
-    top:46%;
+/* .img-slider-button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+    z-index: 1;
+    height: 60px;
+    width: 60px; 
+    min-height: 60px;
+    min-width: 60px;
+} */
 
+.img-slider-button {
+    all: unset;
+    user-select: none; /* Prevents text selection */
+    -webkit-tap-highlight-color: transparent; /* Removes tap highlight effect on mobile */
+    position: absolute;
+    top: -20px; /* Move button 20px up */
+    bottom: -20px; /* Expand click area 20px below */
+    width: 20%;  /* Expand clickable width */
+    height: calc(100% + 40px); /* Make area taller */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2; /* Ensure buttons are on top */
 }
+
 
 
 .img-circle-btn-container{
@@ -72,34 +92,35 @@ body {
     
 }
 
-.button-arrow-left,.button-arrow-right{
-    
-    color:white;
-    font-size:55px;
- 
+.button-arrow-left,
+.button-arrow-right {
+    color: white;
+    font-size: 50px;
 }
 
 
-
-@media (max-width:776px){
-    .button-arrow-left,.button-arrow-right{
-        
-        font-size:40px;
-    }
-    .button-arrow-left{
-        transform: translate(-50%,-40%);
+/* Adjustments for small screens */
+@media (max-width: 776px) {
+    .button-arrow-left,
+    .button-arrow-right {
+        font-size: 55px;
     }
 
-    .button-arrow-right{
-        transform: translate(70%,-40%);
+    .img-slider-button {
+        width: 10%; /* Slightly smaller */
+
     }
 
-    
-.img-slider-circle-btn{
-   z-index:9999;
-    
-}
+    .button-arrow-left {
+        transform: translate(-50%, -50%);
+    }
 
+    .button-arrow-right {
+        transform: translate(50%, -50%);
+    }
 
-
+    .img-slider-circle-btn{
+        z-index:9999;
+         
+     }
 }
