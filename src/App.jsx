@@ -1,68 +1,64 @@
-import React,{ useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'; 
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; 
 import Preloader from "./Preloader.jsx";
 import Slider from "./Slider.jsx";
 import About from "./About.jsx";
 import Cmt from "./Cmt.jsx";
 import Big from "./Big.jsx";
-import {useNavigate} from "react-router-dom";
-import Bigcmt from "./Bigcmt.jsx"
-import Contact from "./Contact.jsx"
-import Scroller from "./Scroller.jsx"
-import Footer from "./Footer.jsx"
-import Navbar from "./Navbar.jsx"
-import Blog from "./Blog.jsx"
-import "./montserrat.css"
+import Bigcmt from "./Bigcmt.jsx";
+import Contact from "./Contact.jsx";
+import Scroller from "./Scroller.jsx";
+import Footer from "./Footer.jsx";
+import Navbar from "./Navbar.jsx";
+import Blog from "./Blog.jsx";
+import "./montserrat.css";
 
 console.warn = () => {};
+
 function App() {
-  const [count, setCount] = useState(0)
-  const [initialLoad, setInitialLoad] = useState(true);
+  const location = useLocation();
+  const isHomeRoute = location.pathname === '/';
+
+  // Detect refresh
+  const [showPreloader, setShowPreloader] = useState(() => {
+    const hasLoadedBefore = sessionStorage.getItem('hasLoaded');
+    const isPageReload = performance.navigation.type === 1; // 1 means the page was reloaded
+    return !hasLoadedBefore || (isHomeRoute && isPageReload);
+  });
 
   useEffect(() => {
-    console.log("%cMade by KushajM",
-  'background: linear-gradient(to right, #b24592, #f80759);padding:1rem;color:white;border-radius:.5em;font-size:20px;'
-  
-);
-    document.title = 'JUMUN 2025';
-    console.warn = () => {};
-    
-  }, []);
+    if (showPreloader) {
+      const timer = setTimeout(() => {
+        setShowPreloader(false);
+        sessionStorage.setItem('hasLoaded', 'true');
+      }, 5000); // Adjust time as needed
+      return () => clearTimeout(timer);
+    }
+  }, [showPreloader]);
 
-  const isHomeRoute = location.pathname === '/';
   return (
-    <Router>
-   {/* <Preloadertwo /> */}
-   
-   {initialLoad && isHomeRoute && <Preloader />}
-  <Navbar />
-  
-  <Slider />
-  
-  <Routes>
-    
-    <Route path ="/big"  element={<Big />} />
-    <Route path ="/bigcmt" element={<Bigcmt />} />
-    <Route path ="/blog" element={<Blog />} />
-
-    </Routes>
-  <About />
-  
-  <Cmt />
-  <Contact />
-  <Scroller />
-    <Footer />
-    
-    {/* <BigAbout /> */}
-    {/* <SvgSection /> */}
-    
-  </Router>
-  )
+    <>
+      {showPreloader && isHomeRoute && <Preloader />}
+      <Navbar />
+      <Slider />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/big" element={<Big />} />
+        <Route path="/bigcmt" element={<Bigcmt />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+      <Cmt />
+      <Contact />
+      <Scroller />
+      <Footer />
+    </>
+  );
 }
 
-export default App
-
+export default function Root() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
