@@ -46,7 +46,7 @@ const Text = ({ text, index }) => {
   };
 
   const openResources = () => {
-    const formUrl = 'https://drive.google.com/drive/u/2/folders/1iuaJQKz-jthLZTgB3H1dBy03oG6AsjVn';
+    const formUrl = 'https://drive.google.com/drive/folders/1gqSms4ScpIn1Syv-GIcbSYwubfQZnih3';
     window.open(formUrl, '_blank');
   };
   return (
